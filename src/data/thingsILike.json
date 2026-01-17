@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "pageTitle": "Things I Like",
     "pageSubtitle": "Curated Favorites",
@@ -192,4 +193,200 @@
             ]
         }
     ]
+=======
+{
+    "pageTitle": "Things I Like",
+    "pageSubtitle": "Curated Favorites",
+    "description": "A collection of tools, resources, books, and things that have shaped how I think and work.",
+    "sections": [
+        {
+            "id": "movies",
+            "name": "Movies",
+            "iconName": "Film",
+            "letterboxdUsername": "WIZARDLORDE",
+            "letterboxdListUrl": "https://boxd.it/Gopnw",
+            "letterboxdProfileUrl": "https://boxd.it/aAKth",
+            "items": [
+                {
+                    "title": "Interstellar",
+                    "subtitle": "Christopher Nolan",
+                    "note": "Mind-bending space epic",
+                    "image": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+                },
+                {
+                    "title": "The Social Network",
+                    "subtitle": "David Fincher",
+                    "note": "The startup story",
+                    "image": "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg"
+                },
+                {
+                    "title": "Fight Club",
+                    "subtitle": "David Fincher",
+                    "note": "Question everything",
+                    "image": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
+                },
+                {
+                    "title": "The Pursuit of Happyness",
+                    "subtitle": "Gabriele Muccino",
+                    "note": "Never give up",
+                    "image": "https://image.tmdb.org/t/p/w500/iSgRNwCuKVflyF7hjLvGBsJjXcB.jpg"
+                },
+                {
+                    "title": "Whiplash",
+                    "subtitle": "Damien Chazelle",
+                    "note": "The cost of greatness",
+                    "image": "https://image.tmdb.org/t/p/w500/oPxnRhyAIzJCLfwz1WaRobPkulT.jpg"
+                }
+            ]
+        },
+        {
+            "id": "podcasts",
+            "name": "Podcasts",
+            "iconName": "Headphones",
+            "items": [
+                {
+                    "title": "How I Built This",
+                    "subtitle": "Guy Raz",
+                    "note": "Founder stories and journeys",
+                    "image": "https://i.scdn.co/image/ab6765630000ba8a7766e182b12fd85537d3b776"
+                },
+                {
+                    "title": "My First Million",
+                    "subtitle": "Sam & Shaan",
+                    "note": "Business ideas and trends",
+                    "image": "https://images-cf.getpodpage.com/cdn-cgi/image/quality=70,fit=contain,format=auto,width=480/https://megaphone.imgix.net/podcasts/39846662-79ea-11eb-9b06-a75ddc4bddcc/image/39f8195a6d8978d0a7bd9c7d7b3fba2d.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+                },
+                {
+                    "title": "Lex Fridman Podcast",
+                    "subtitle": "Lex Fridman",
+                    "note": "Deep conversations on AI & life",
+                    "image": "https://i.scdn.co/image/ab6765630000ba8a563ebb538d297875b10114b7"
+                },
+                {
+                    "title": "The Tim Ferriss Show",
+                    "subtitle": "Tim Ferriss",
+                    "note": "World-class performers",
+                    "image": "https://i.ytimg.com/pl_c/PLuu6fDad2eJyWPm9dQfuorm2uuYHBZDCB/studio_square_thumbnail.jpg?sqp=CK-A-8oG-oaymwEICOADEOADSFqi85f_AwYItpfqogY=&rs=AOn4CLDuL5sii9yxRUQydLn1WH_oimnR7w"
+                },
+                {
+                    "title": "Acquired",
+                    "subtitle": "Ben & David",
+                    "note": "Business stories & strategies",
+                    "image": "https://media.licdn.com/dms/image/v2/D560BAQFUq8Jh0EYYjQ/company-logo_200_200/company-logo_200_200/0/1681224157884/acquired_fm_logo?e=1769644800&v=beta&t=A8vCte-XwTW180LpbDR5hbOKZmOrIi8XdqxNyX0E4pI"
+                }
+            ]
+        },
+        {
+            "id": "inspirations",
+            "name": "Inspirations",
+            "iconName": "Sparkles",
+            "items": [
+                {
+                    "title": "Pieter Levels",
+                    "subtitle": "@levelsio",
+                    "note": "The ultimate indie hacker",
+                    "image": "https://pbs.twimg.com/profile_images/1996831016720486400/vycHz0uG_400x400.jpg"
+                },
+                {
+                    "title": "Naval Ravikant",
+                    "subtitle": "@naval",
+                    "note": "Timeless wisdom on wealth and life",
+                    "image": "https://pbs.twimg.com/profile_images/1256841238298292232/ycqwaMI2_400x400.jpg"
+                },
+                {
+                    "title": "Paul Graham",
+                    "subtitle": "@paulg",
+                    "note": "Essays that shaped startups",
+                    "image": "https://pbs.twimg.com/profile_images/1824002576/pg-railsconf_400x400.jpg"
+                },
+                {
+                    "title": "Marc Lou",
+                    "subtitle": "@marc_louvion",
+                    "note": "Ship fast, make money",
+                    "image": "https://pbs.twimg.com/profile_images/1514863683574599681/9k7PqDTA_400x400.jpg"
+                },
+                {
+                    "title": "DHH",
+                    "subtitle": "@dhh",
+                    "note": "Building Basecamp & Rails",
+                    "image": "https://pbs.twimg.com/profile_images/1746980162607140864/fG9Fj4K__400x400.jpg"
+                }
+            ]
+        },
+        {
+            "id": "books",
+            "name": "Books",
+            "iconName": "BookOpen",
+            "items": [
+                {
+                    "title": "The Lean Startup",
+                    "subtitle": "Eric Ries",
+                    "note": "Changed how I think about MVPs",
+                    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1333576876i/10127019.jpg"
+                },
+                {
+                    "title": "Zero to One",
+                    "subtitle": "Peter Thiel",
+                    "note": "Building things that don't exist yet",
+                    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630663027i/18050143.jpg"
+                },
+                {
+                    "title": "Atomic Habits",
+                    "subtitle": "James Clear",
+                    "note": "Systems over goals",
+                    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg"
+                },
+                {
+                    "title": "Deep Work",
+                    "subtitle": "Cal Newport",
+                    "note": "Focus in a distracted world",
+                    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1447957962i/25744928.jpg"
+                },
+                {
+                    "title": "The 4-Hour Workweek",
+                    "subtitle": "Tim Ferriss",
+                    "note": "Lifestyle design principles",
+                    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442957271i/368593.jpg"
+                }
+            ]
+        },
+        {
+            "id": "tools",
+            "name": "Tools",
+            "iconName": "Wrench",
+            "items": [
+                {
+                    "title": "VS Code",
+                    "subtitle": "Code Editor",
+                    "note": "My daily driver for coding",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png"
+                },
+                {
+                    "title": "Figma",
+                    "subtitle": "Design Tool",
+                    "note": "Design and prototyping",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+                },
+                {
+                    "title": "Notion",
+                    "subtitle": "Productivity",
+                    "note": "Second brain and documentation",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png"
+                },
+                {
+                    "title": "Linear",
+                    "subtitle": "Project Management",
+                    "note": "Clean issue tracking",
+                    "image": "https://asset.brandfetch.io/iduDa181eM/idYYbqOlKi.png"
+                },
+                {
+                    "title": "Vercel",
+                    "subtitle": "Deployment",
+                    "note": "Ship fast, iterate faster",
+                    "image": "https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png"
+                }
+            ]
+        }
+    ]
+>>>>>>> 4f99cfc8c17cfa9d10bc14f1f3cde428fd5287d0
 }
