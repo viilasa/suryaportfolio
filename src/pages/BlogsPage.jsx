@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import SectionHeading from '../components/SectionHeading';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 import { getAllPosts, getCategories } from '../utils/blogLoader';
 import { useState } from 'react';
 
@@ -57,6 +58,11 @@ const BlogsPage = () => {
 
     return (
         <div className="app">
+            <SEO
+                title="Blog"
+                description="Ideas, lessons, and stories from my journey as a builder."
+                url="/blogs"
+            />
             <Navbar />
             <main className="page blogs-page">
                 {/* Decorative elements */}

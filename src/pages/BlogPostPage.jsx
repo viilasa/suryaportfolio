@@ -4,6 +4,7 @@ import remarkGfm from 'remark-gfm';
 import { ArrowLeft, Calendar, Clock, Tag } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 import { getPostBySlug, getAllPosts } from '../utils/blogLoader';
 
 const BlogPostPage = () => {
@@ -38,6 +39,15 @@ const BlogPostPage = () => {
 
     return (
         <div className="app">
+            <SEO
+                title={post.title}
+                description={post.excerpt}
+                image={post.image}
+                url={`/blogs/${post.slug}`}
+                type="article"
+                publishedTime={post.date}
+                author={post.author || "Surya"}
+            />
             <Navbar />
             <main className="page blog-post-page">
                 {/* Decorative elements */}
