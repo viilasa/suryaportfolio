@@ -1,11 +1,11 @@
-# Robots.txt for suryanarayan.dev
-# https://suryanarayan.dev
+# Robots.txt for Surya Portfolio
+# https://suryaportfolio-omega.vercel.app
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://suryanarayan.dev/sitemap.xml
+Sitemap: https://suryaportfolio-omega.vercel.app/sitemap.xml
 
 # Crawl delay (optional, be nice to bots)
 Crawl-delay: 1
