@@ -46,7 +46,9 @@ const BlogPostPage = () => {
                 url={`/blogs/${post.slug}`}
                 type="article"
                 publishedTime={post.date}
-                author={post.author || "Surya"}
+                author={post.author || "Surya Narayan"}
+                section={post.category}
+                keywords={post.keywords}
             />
             <Navbar />
             <main className="page blog-post-page">
