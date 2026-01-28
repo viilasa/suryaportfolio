@@ -7,7 +7,8 @@ import {
     OperatingSystemSection,
     TimelineSection,
     StrategySection,
-    PhilosophySection
+    PhilosophySection,
+    LatestBlogsSection
 } from '../components';
 
 const HomePage = () => {
@@ -15,13 +16,14 @@ const HomePage = () => {
         <div className="app">
             <SEO
                 title="Home"
-                description="Frontend Developer & UI/UX Designer building digital products."
+                description="Indie hacker and full-stack developer building SaaS products. Specializing in React, Node.js, and AI-powered solutions."
             />
             <Navbar />
             <HeroSection />
             <AboutSection />
             <OperatingSystemSection />
             <TimelineSection />
+            <LatestBlogsSection />
             <StrategySection />
             <PhilosophySection />
             <Footer />
@@ -30,4 +32,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-

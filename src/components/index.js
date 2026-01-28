@@ -21,4 +21,5 @@ export { default as ProjectsSection } from './sections/ProjectsSection';
 export { default as StrategySection } from './sections/StrategySection';
 export { default as PhilosophySection } from './sections/PhilosophySection';
 export { default as ContactSection } from './sections/ContactSection';
+export { default as LatestBlogsSection } from './sections/LatestBlogsSection';
 
