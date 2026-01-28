@@ -1,0 +1,16 @@
+# Robots.txt for suryanarayan.dev
+# https://suryanarayan.dev
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://suryanarayan.dev/sitemap.xml
+
+# Crawl delay (optional, be nice to bots)
+Crawl-delay: 1
+
+# Block common non-content paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/chunks/

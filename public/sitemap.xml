@@ -1,46 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
+    <!-- Main Pages -->
     <url>
-        <loc>https://surya-portfolio.com/</loc>
+        <loc>https://suryanarayan.dev/</loc>
         <changefreq>weekly</changefreq>
-        <priority>1</priority>
-        
+        <priority>1.0</priority>
+        <lastmod>2026-01-28</lastmod>
     </url>
     
     <url>
-        <loc>https://surya-portfolio.com/blogs</loc>
+        <loc>https://suryanarayan.dev/blogs</loc>
         <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-        
+        <priority>0.9</priority>
+        <lastmod>2026-01-28</lastmod>
     </url>
     
     <url>
-        <loc>https://surya-portfolio.com/blogs/building-proofedge</loc>
+        <loc>https://suryanarayan.dev/portfolio</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2026-01-28</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://suryanarayan.dev/things-i-like</loc>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
+        <lastmod>2026-01-28</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://suryanarayan.dev/contact</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <lastmod>2026-01-28</lastmod>
+    </url>
+    
+    <!-- Blog Posts -->
+    <url>
+        <loc>https://suryanarayan.dev/blogs/youre-not-early-youre-just-hiding</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2026-01-28</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://suryanarayan.dev/blogs/saas-bloated-afraid-to-say-no</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <lastmod>2026-01-18</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://suryanarayan.dev/blogs/building-proofedge</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
         <lastmod>2026-01-08</lastmod>
     </url>
     
     <url>
-        <loc>https://surya-portfolio.com/blogs/indie-hacker-lessons</loc>
+        <loc>https://suryanarayan.dev/blogs/indie-hacker-lessons</loc>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
         <lastmod>2026-01-05</lastmod>
     </url>
     
     <url>
-        <loc>https://surya-portfolio.com/blogs/why-react</loc>
+        <loc>https://suryanarayan.dev/blogs/why-react</loc>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
         <lastmod>2025-12-20</lastmod>
-    </url>
-    
-    <url>
-        <loc>https://surya-portfolio.com/blogs/saas-bloated-afraid-to-say-no</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-        <lastmod>2026-01-18</lastmod>
     </url>
     
 </urlset>
