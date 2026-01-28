@@ -1,4 +1,4 @@
-import { Calendar, Clock, ArrowRight } from 'lucide-react';
+import { Calendar, Clock, ArrowRight, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import SectionHeading from '../components/SectionHeading';
 import Navbar from '../components/Navbar';
@@ -7,15 +7,95 @@ import SEO from '../components/SEO';
 import { getAllPosts, getCategories } from '../utils/blogLoader';
 import { useState } from 'react';
 
-const BlogCard = ({ post, index, featured = false }) => (
+// Hero Featured Card - Large prominent display
+const HeroCard = ({ post }) => (
+    <Link to={`/blogs/${post.slug}`} className="blogs-hero__main hover-lift">
+        <div className="blogs-hero__image-wrapper">
+            {post.image ? (
+                <img src={post.image} alt={post.title} className="blogs-hero__image" />
+            ) : (
+                <div className="blogs-hero__image-placeholder">
+                    <Sparkles size={48} />
+                </div>
+            )}
+            <div className="blogs-hero__overlay" />
+        </div>
+        <div className="blogs-hero__content">
+            <span className="blogs-hero__badge">Latest</span>
+            <span className="blogs-hero__category">{post.category}</span>
+            <h2 className="blogs-hero__title">{post.title}</h2>
+            <p className="blogs-hero__excerpt">{post.excerpt}</p>
+            <div className="blogs-hero__meta">
+                <span className="blogs-hero__date">
+                    <Calendar size={14} />
+                    {new Date(post.date).toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                    })}
+                </span>
+                {post.readTime && (
+                    <span className="blogs-hero__read-time">
+                        <Clock size={14} />
+                        {post.readTime}
+                    </span>
+                )}
+            </div>
+            <span className="blogs-hero__cta">
+                Read Article <ArrowRight size={18} />
+            </span>
+        </div>
+    </Link>
+);
+
+// Secondary Featured Card - Smaller but still prominent
+const SecondaryCard = ({ post, index }) => (
     <Link
         to={`/blogs/${post.slug}`}
-        className={`blog-card hover-lift ${featured ? 'blog-card--featured' : ''}`}
+        className="blogs-hero__secondary hover-lift"
+        style={{ animationDelay: `${(index + 1) * 0.1}s` }}
+    >
+        <div className="blogs-hero__secondary-image-wrapper">
+            {post.image ? (
+                <img src={post.image} alt={post.title} className="blogs-hero__secondary-image" />
+            ) : (
+                <div className="blogs-hero__secondary-placeholder">
+                    <Sparkles size={24} />
+                </div>
+            )}
+        </div>
+        <div className="blogs-hero__secondary-content">
+            <span className="blogs-hero__secondary-category">{post.category}</span>
+            <h3 className="blogs-hero__secondary-title">{post.title}</h3>
+            <div className="blogs-hero__secondary-meta">
+                <span>
+                    <Calendar size={12} />
+                    {new Date(post.date).toLocaleDateString('en-US', {
+                        month: 'short',
+                        day: 'numeric'
+                    })}
+                </span>
+                {post.readTime && (
+                    <span>
+                        <Clock size={12} />
+                        {post.readTime}
+                    </span>
+                )}
+            </div>
+        </div>
+    </Link>
+);
+
+// Regular Blog Card
+const BlogCard = ({ post, index }) => (
+    <Link
+        to={`/blogs/${post.slug}`}
+        className="blog-card hover-lift"
         style={{ animationDelay: `${index * 0.1}s` }}
     >
-        {featured && post.image && (
-            <div className="blog-card__image-wrapper">
-                <img src={post.image} alt={post.title} className="blog-card__image" />
+        {post.image && (
+            <div className="blog-card__thumb">
+                <img src={post.image} alt={post.title} />
             </div>
         )}
         <div className="blog-card__content">
@@ -50,17 +130,24 @@ const BlogsPage = () => {
     const categories = getCategories();
     const [activeCategory, setActiveCategory] = useState('All');
 
-    const filteredPosts = activeCategory === 'All'
-        ? allPosts
-        : allPosts.filter(post => post.category === activeCategory);
+    // Get top 3 latest posts for the hero section
+    const latestPosts = allPosts.slice(0, 3);
+    const mainHeroPost = latestPosts[0];
+    const secondaryPosts = latestPosts.slice(1, 3);
 
-    const featuredPost = allPosts.find(post => post.featured);
+    // Remaining posts for the grid (excluding top 3)
+    const remainingPosts = allPosts.slice(3);
+
+    // Filter remaining posts by category
+    const filteredPosts = activeCategory === 'All'
+        ? remainingPosts
+        : remainingPosts.filter(post => post.category === activeCategory);
 
     return (
         <div className="app">
             <SEO
                 title="Blog"
-                description="Ideas, lessons, and stories from my journey as a builder."
+                description="Ideas, lessons, and stories from my journey as a builder. Insights on indie hacking, SaaS, and building in public."
                 url="/blogs"
             />
             <Navbar />
@@ -80,45 +167,63 @@ const BlogsPage = () => {
                         </p>
                     </div>
 
-                    {/* Featured Post */}
-                    {featuredPost && (
-                        <div className="blogs-featured">
-                            <span className="blogs-featured__label">Featured Post</span>
-                            <BlogCard post={featuredPost} index={0} featured={true} />
-                        </div>
+                    {/* Hero Section - Top 3 Latest Posts */}
+                    {latestPosts.length > 0 && (
+                        <section className="blogs-hero">
+                            <div className="blogs-hero__grid">
+                                {mainHeroPost && <HeroCard post={mainHeroPost} />}
+                                <div className="blogs-hero__sidebar">
+                                    {secondaryPosts.map((post, idx) => (
+                                        <SecondaryCard key={post.slug} post={post} index={idx} />
+                                    ))}
+                                </div>
+                            </div>
+                        </section>
                     )}
 
-                    {/* Category Filter */}
-                    <div className="blogs-filters">
-                        <button
-                            className={`blogs-filter ${activeCategory === 'All' ? 'blogs-filter--active' : ''}`}
-                            onClick={() => setActiveCategory('All')}
-                        >
-                            All
-                        </button>
-                        {categories.map(category => (
-                            <button
-                                key={category}
-                                className={`blogs-filter ${activeCategory === category ? 'blogs-filter--active' : ''}`}
-                                onClick={() => setActiveCategory(category)}
-                            >
-                                {category}
-                            </button>
-                        ))}
-                    </div>
+                    {/* All Posts Section */}
+                    {remainingPosts.length > 0 && (
+                        <>
+                            <div className="blogs-section-header">
+                                <h2 className="blogs-section-title">All Articles</h2>
+                                <div className="blogs-filters">
+                                    <button
+                                        className={`blogs-filter ${activeCategory === 'All' ? 'blogs-filter--active' : ''}`}
+                                        onClick={() => setActiveCategory('All')}
+                                    >
+                                        All
+                                    </button>
+                                    {categories.map(category => (
+                                        <button
+                                            key={category}
+                                            className={`blogs-filter ${activeCategory === category ? 'blogs-filter--active' : ''}`}
+                                            onClick={() => setActiveCategory(category)}
+                                        >
+                                            {category}
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
 
-                    {/* Posts Grid */}
-                    <div className="blogs-grid">
-                        {filteredPosts
-                            .filter(post => !post.featured || activeCategory !== 'All')
-                            .map((post, idx) => (
-                                <BlogCard key={post.slug} post={post} index={idx} />
-                            ))}
-                    </div>
+                            {/* Posts Grid */}
+                            <div className="blogs-grid">
+                                {filteredPosts.map((post, idx) => (
+                                    <BlogCard key={post.slug} post={post} index={idx} />
+                                ))}
+                            </div>
 
-                    {filteredPosts.length === 0 && (
-                        <div className="blogs-empty">
-                            <p>No posts in this category yet.</p>
+                            {filteredPosts.length === 0 && (
+                                <div className="blogs-empty">
+                                    <p>No posts in this category yet.</p>
+                                </div>
+                            )}
+                        </>
+                    )}
+
+                    {/* If only hero posts exist and no remaining posts */}
+                    {remainingPosts.length === 0 && latestPosts.length > 0 && (
+                        <div className="blogs-more-coming">
+                            <p>More articles coming soon...</p>
                         </div>
                     )}
                 </div>
@@ -129,4 +234,3 @@ const BlogsPage = () => {
 };
 
 export default BlogsPage;
-
