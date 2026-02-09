@@ -7,6 +7,8 @@ excerpt: "A deep dive into why React remains my frontend framework of choice in 
 image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800"
 readTime: "6 min read"
 featured: false
+author: "Surya Narayan"
+keywords: "React vs Vue, React vs Svelte, React vs Angular, why choose React, frontend framework comparison, React ecosystem, JavaScript frameworks 2026, React developer, web development frameworks, Surya Narayan"
 ---
 
 # Why I Chose React Over Other Frameworks

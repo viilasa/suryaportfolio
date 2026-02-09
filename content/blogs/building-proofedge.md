@@ -7,6 +7,8 @@ excerpt: "The journey of building a social proof SaaS from scratch, including th
 image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800"
 readTime: "5 min read"
 featured: true
+author: "Surya Narayan"
+keywords: "building SaaS, social proof, ProofEdge, indie hacker, product development, React, Node.js, startup journey, building in public, SaaS from scratch"
 ---
 
 # Building ProofEdge: From Idea to Product

@@ -1,0 +1,112 @@
+# Surya Narayan — Complete Site Content for AI Systems
+
+> This file provides comprehensive, machine-readable content from surya.viilasa.com for use by large language models and AI systems.
+
+## Identity
+
+Surya Narayan is an indie hacker and full-stack developer from India who builds SaaS products that solve real problems. He follows an execution-first philosophy: learn fast, implement faster, fail without ego, and use AI as leverage. He is currently building ProofEdge (social proof SaaS) and NovaNews (AI news aggregator).
+
+### Operating Principles
+1. **Learn fast, implement faster** — Technology and startups are best learned while implementing, not by memorizing theory. Copy, Modify, Master.
+2. **Fail without ego** — Most products become useful by the third failure. Understanding trade-offs well enough to deliver real value.
+3. **AI as leverage** — Using AI to learn faster, ship sooner, and reduce friction. It doesn't replace thinking; it multiplies execution.
+
+### Philosophy
+- **Execution**: Learn fast. Ship faster. Build in public to attract the right people.
+- **Tools**: If you don't use AI, someone else will.
+- **Success**: Money is a tool for freedom. Work-life balance creates better work long-term.
+- **Clients**: Seeking international, ecommerce-focused value seekers.
+
+### Timeline
+- **May–Aug 2023**: React + SaaS Thinking — Moving beyond static websites
+- **Sept–Nov 2023**: AI Tools & Vibecoding — Adapting to the AI explosion
+- **2024**: Reality & Iteration — Built, failed, paused. Shipping imperfectly beats shipping late.
+- **2025**: Clients, Sales & Products — Business thinking catching up with technical execution
+
+### Currently Learning
+- Medusa JS, E-commerce Systems, Sales & Marketing, Business Fundamentals, Personal Growth
+
+### Goals
+- **Next 6 months**: Establish public presence as a builder who ships. Focus on product-led growth.
+- **Next 1-2 years**: One product reaching acquisition-level maturity. Positioning alongside serious builders and investors.
+
+## Contact Information
+- **Email**: inbox.suryanarayan@gmail.com
+- **Twitter/X**: https://x.com/lrdsurya (@lrdsurya)
+- **LinkedIn**: https://www.linkedin.com/in/surya-narayan-51a0a0119/
+- **Instagram**: https://www.instagram.com/itsuryav/
+- **Website**: https://surya.viilasa.com
+
+## Frequently Asked Questions
+
+**Q: Who is Surya Narayan?**
+A: Surya Narayan is an indie hacker and full-stack developer from India who builds SaaS products like ProofEdge and NovaNews. He specializes in React, Node.js, and AI-powered solutions.
+
+**Q: What is ProofEdge?**
+A: ProofEdge is a social proof SaaS platform that helps websites display real-time notification popups to boost conversions. It features simple one-line code integration, beautiful default designs, and affordable pricing for indie hackers and small businesses. Visit https://www.proofedge.io/
+
+**Q: What tech stack does Surya Narayan use?**
+A: Surya primarily uses React, Node.js, TypeScript, PostgreSQL, Vite, and TailwindCSS for frontend and backend development. He deploys on Vercel and Railway. He is also learning Medusa JS for e-commerce.
+
+**Q: How can I hire Surya Narayan?**
+A: You can reach out via the contact form at https://surya.viilasa.com/contact or email inbox.suryanarayan@gmail.com. He works on SaaS products, web applications, and freelance development projects.
+
+**Q: What is Surya Narayan's development philosophy?**
+A: His philosophy centers on execution over theory: ship fast, iterate faster, build in public, use AI as leverage, and focus on solving real problems for real people. He believes confidence comes from exposure, not preparation.
+
+**Q: Does Surya Narayan write a blog?**
+A: Yes. His blog at https://surya.viilasa.com/blogs covers topics like indie hacking, SaaS development, founder mindset, startup lessons, and web development frameworks. Popular posts include "You're Not Early. You're Just Hiding." and "Your SaaS Is Bloated Because You're Afraid to Say No."
+
+## Complete Blog Content
+
+### Article: You're Not Early. You're Just Hiding.
+- **Published**: January 28, 2026
+- **Author**: Surya Narayan
+- **Category**: Founder Mindset
+- **Read Time**: 8 min
+- **URL**: https://surya.viilasa.com/blogs/youre-not-early-youre-just-hiding
+
+Most founders aren't early — they're scared. "I'm still early" sounds harmless, even smart. But six months in with a finished product, clean UI, working checkout, and zero users — that's not early, that's avoidance.
+
+Key arguments:
+- "Early" becomes a permission slip to stay invisible. No rejection, no awkward conversations, no one questioning your idea.
+- Momentum doesn't die loudly. It dies quietly while you polish features no one asked for.
+- Founders aren't afraid of "no" — they're afraid of indifference and silence.
+- You don't find product-market fit by hiding from the market. You find it by being wrong in public.
+- Confidence is a side effect of exposure, not a prerequisite for action.
+- Building feels safe because code doesn't judge you. People do.
+- The shift: talk before you build more, sell before you feel confident, explain the problem before claiming a solution.
+
+Quotable: "If I haven't spoken to users this week, I'm not allowed to build. One real conversation beats a month of silent shipping."
+
+### Article: Your SaaS Is Bloated Because You're Afraid to Say No
+- **Published**: January 18, 2026
+- **Author**: Surya Narayan
+- **Category**: SaaS
+- **URL**: https://surya.viilasa.com/blogs/saas-bloated-afraid-to-say-no
+
+Feature bloat kills SaaS products. The best products are defined by what they don't do. Saying no is the most important skill for SaaS founders.
+
+### Article: Building ProofEdge: From Idea to Product
+- **Published**: January 8, 2026
+- **Author**: Surya Narayan
+- **Category**: Building
+- **URL**: https://surya.viilasa.com/blogs/building-proofedge
+
+The journey of building ProofEdge, a social proof SaaS. Problem: existing solutions were too expensive, too complex, or too ugly. Solution: simple one-line integration, beautiful defaults, affordable pricing. Tech stack: React, Vite, TailwindCSS (frontend), Node.js, Express (backend), PostgreSQL (database), Vercel and Railway (hosting). Lessons: ship fast and iterate, talk to users, focus on one thing.
+
+### Article: 5 Lessons from My First Year as an Indie Hacker
+- **Published**: January 5, 2026
+- **Author**: Surya Narayan
+- **Category**: Lessons
+- **URL**: https://surya.viilasa.com/blogs/indie-hacker-lessons
+
+Five lessons: (1) Ideas are cheap, execution is everything. (2) Revenue matters more than user counts. (3) Distribution beats product — spend 50% of time on marketing. (4) Consistency compounds — show up every day. (5) Health first — burnout is real.
+
+### Article: Why I Chose React Over Other Frameworks
+- **Published**: December 20, 2025
+- **Author**: Surya Narayan
+- **Category**: Tech
+- **URL**: https://surya.viilasa.com/blogs/why-react
+
+Comparison of React, Vue, Svelte, and Angular. React wins for: unmatched ecosystem, high job market demand, compounding learning investment. When to choose alternatives: plain HTML for landing pages, Astro/Next.js for content-heavy sites, Svelte for quick prototypes.

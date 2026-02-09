@@ -3,6 +3,7 @@ import { Send, CheckCircle, AlertCircle, Twitter, Linkedin, Instagram } from 'lu
 import SectionHeading from '../components/SectionHeading';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 import content from '../data/content.json';
 
 const iconMap = {
@@ -47,6 +48,16 @@ const ContactPage = () => {
 
     return (
         <div className="app">
+            <SEO
+                title="Contact"
+                description="Get in touch with Surya Narayan. Hire a full-stack developer and indie hacker for your next SaaS project, web application, or freelance development work."
+                url="/contact"
+                keywords="contact Surya Narayan, hire full-stack developer, freelance developer India, SaaS developer for hire, React developer, web developer contact, indie hacker for hire"
+                breadcrumbs={[
+                    { name: "Home", url: "/" },
+                    { name: "Contact", url: "/contact" }
+                ]}
+            />
             <Navbar />
             <main className="page contact-page">
                 {/* Decorative elements */}

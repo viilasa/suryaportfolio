@@ -37,6 +37,9 @@ const BlogPostPage = () => {
         );
     }
 
+    // Word count for structured data
+    const postWordCount = post.content ? post.content.split(/\s+/).length : 0;
+
     return (
         <div className="app">
             <SEO
@@ -49,6 +52,14 @@ const BlogPostPage = () => {
                 author={post.author || "Surya Narayan"}
                 section={post.category}
                 keywords={post.keywords}
+                wordCount={postWordCount}
+                tags={post.keywords || `${post.category}, indie hacker, Surya Narayan`}
+                breadcrumbs={[
+                    { name: "Home", url: "/" },
+                    { name: "Blog", url: "/blogs" },
+                    { name: post.title, url: `/blogs/${post.slug}` }
+                ]}
+                faqItems={post.faqItems}
             />
             <Navbar />
             <main className="page blog-post-page">

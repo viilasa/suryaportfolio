@@ -11,7 +11,11 @@ const SEO = ({
     modifiedTime,
     author,
     keywords,
-    section
+    section,
+    breadcrumbs,
+    faqItems,
+    wordCount,
+    tags
 }) => {
     const seoTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
     const seoDescription = description || 'Indie hacker building SaaS products. Specializing in React, Node.js, and AI-powered solutions.';
@@ -23,6 +27,101 @@ const SEO = ({
         ? `${title}, ${section || 'blog'}, indie hacker, startup, SaaS, building in public, founder mindset, Surya Narayan`
         : 'indie hacker, full-stack developer, SaaS builder, React, Node.js, Surya Narayan');
 
+    // BreadcrumbList structured data for GEO
+    const breadcrumbSchema = breadcrumbs ? {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": breadcrumbs.map((crumb, idx) => ({
+            "@type": "ListItem",
+            "position": idx + 1,
+            "name": crumb.name,
+            "item": crumb.url.startsWith('http') ? crumb.url : `${SITE_URL}${crumb.url}`
+        }))
+    } : null;
+
+    // FAQPage structured data for GEO — AI engines love extracting Q&A
+    const faqSchema = faqItems && faqItems.length > 0 ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqItems.map(faq => ({
+            "@type": "Question",
+            "name": faq.question,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+            }
+        }))
+    } : null;
+
+    // Enhanced Article structured data with GEO signals
+    const articleSchema = type === 'article' ? {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": title,
+        "description": seoDescription,
+        "image": {
+            "@type": "ImageObject",
+            "url": seoImage,
+            "width": 1200,
+            "height": 630
+        },
+        "url": seoUrl,
+        "datePublished": publishedTime ? new Date(publishedTime).toISOString() : undefined,
+        "dateModified": modifiedTime ? new Date(modifiedTime).toISOString() : (publishedTime ? new Date(publishedTime).toISOString() : undefined),
+        "author": {
+            "@type": "Person",
+            "name": author || "Surya Narayan",
+            "url": SITE_URL,
+            "sameAs": [
+                "https://x.com/lrdsurya",
+                "https://www.linkedin.com/in/surya-narayan-51a0a0119/",
+                "https://www.instagram.com/itsuryav/"
+            ]
+        },
+        "publisher": {
+            "@type": "Person",
+            "name": "Surya Narayan",
+            "url": SITE_URL,
+            "logo": {
+                "@type": "ImageObject",
+                "url": DEFAULT_IMAGE
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": seoUrl
+        },
+        "articleSection": section || "Technology",
+        "inLanguage": "en-US",
+        ...(wordCount ? { "wordCount": wordCount } : {}),
+        ...(tags ? { "keywords": tags } : {}),
+        "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": [".blog-post__title", ".blog-post__excerpt", ".blog-post__content h2", ".blog-post__content p"]
+        },
+        "isAccessibleForFree": true
+    } : null;
+
+    // WebPage structured data for non-article pages
+    const webPageSchema = type !== 'article' ? {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": seoTitle,
+        "description": seoDescription,
+        "url": seoUrl,
+        "image": seoImage,
+        "inLanguage": "en-US",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": SITE_NAME,
+            "url": SITE_URL
+        },
+        "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": ["h1", "h2", ".page__description"]
+        }
+    } : null;
+
     return (
         <Helmet>
             {/* Standard Meta Tags */}
@@ -30,7 +129,7 @@ const SEO = ({
             <meta name="description" content={seoDescription} />
             <meta name="keywords" content={seoKeywords} />
             <meta name="author" content={author || 'Surya Narayan'} />
-            <meta name="robots" content="index, follow, max-image-preview:large" />
+            <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
             <link rel="canonical" href={seoUrl} />
 
             {/* Open Graph Tags - Optimized for Facebook & LinkedIn */}
@@ -70,38 +169,35 @@ const SEO = ({
             {type === 'article' && modifiedTime && (
                 <meta property="article:modified_time" content={new Date(modifiedTime).toISOString()} />
             )}
+            {type === 'article' && tags && (
+                <meta property="article:tag" content={tags} />
+            )}
 
-            {/* JSON-LD Structured Data for Articles */}
-            {type === 'article' && (
+            {/* JSON-LD: Article / BlogPosting (GEO-enhanced) */}
+            {articleSchema && (
                 <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": title,
-                        "description": seoDescription,
-                        "image": seoImage,
-                        "url": seoUrl,
-                        "datePublished": publishedTime ? new Date(publishedTime).toISOString() : undefined,
-                        "dateModified": modifiedTime ? new Date(modifiedTime).toISOString() : (publishedTime ? new Date(publishedTime).toISOString() : undefined),
-                        "author": {
-                            "@type": "Person",
-                            "name": author || "Surya Narayan",
-                            "url": SITE_URL
-                        },
-                        "publisher": {
-                            "@type": "Person",
-                            "name": "Surya Narayan",
-                            "url": SITE_URL,
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": DEFAULT_IMAGE
-                            }
-                        },
-                        "mainEntityOfPage": {
-                            "@type": "WebPage",
-                            "@id": seoUrl
-                        }
-                    })}
+                    {JSON.stringify(articleSchema)}
+                </script>
+            )}
+
+            {/* JSON-LD: WebPage for non-article pages */}
+            {webPageSchema && (
+                <script type="application/ld+json">
+                    {JSON.stringify(webPageSchema)}
+                </script>
+            )}
+
+            {/* JSON-LD: BreadcrumbList for navigation context */}
+            {breadcrumbSchema && (
+                <script type="application/ld+json">
+                    {JSON.stringify(breadcrumbSchema)}
+                </script>
+            )}
+
+            {/* JSON-LD: FAQPage for AI-extractable Q&A */}
+            {faqSchema && (
+                <script type="application/ld+json">
+                    {JSON.stringify(faqSchema)}
                 </script>
             )}
         </Helmet>

@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && npm run sitemap",
+    "build": "vite build && npm run sitemap && npm run rss",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sitemap": "node scripts/generate-sitemap.js"
+    "sitemap": "node scripts/generate-sitemap.js",
+    "rss": "node scripts/generate-rss.js"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

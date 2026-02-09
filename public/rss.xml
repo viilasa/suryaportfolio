@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Surya Narayan Blog</title>
+        <link>https://surya.viilasa.com/blogs</link>
+        <description>Ideas, lessons, and stories from an indie hacker building SaaS products. Insights on indie hacking, SaaS, startup mindset, and web development.</description>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 09 Feb 2026 18:43:29 GMT</lastBuildDate>
+        <atom:link href="https://surya.viilasa.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <managingEditor>inbox.suryanarayan@gmail.com (Surya Narayan)</managingEditor>
+        <webMaster>inbox.suryanarayan@gmail.com (Surya Narayan)</webMaster>
+        <copyright>Copyright 2026 Surya Narayan</copyright>
+        <generator>Custom RSS Generator</generator>
+        <image>
+            <url>https://res.cloudinary.com/ddhhlkyut/image/upload/v1747902976/Hero_2_t6lmp8.png</url>
+            <title>Surya Narayan Blog</title>
+            <link>https://surya.viilasa.com/blogs</link>
+        </image>
+        <item>
+            <title><![CDATA[You're Not Early. You're Just Hiding.]]></title>
+            <link>https://surya.viilasa.com/blogs/youre-not-early-youre-just-hiding</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/youre-not-early-youre-just-hiding</guid>
+            <description><![CDATA[Most founders aren't early. They're scared. And 'early' becomes the safest excuse to stay invisible while momentum slowly dies.]]></description>
+            <content:encoded><![CDATA[
+# You're Not Early. You're Just Hiding.
+
+*"I'm still early."*
+
+That sentence sounds harmless.
+
+Even smart.
+
+Founders say it with confidence—like they're playing the long game.
+
+But look closer.
+
+Six months in. A finished product. A clean UI. A working checkout.
+
+**And zero users.**
+
+That's not early.
+
+**That's avoidance.**
+
+---
+
+## The Comfortable Lie
+
+"Early" feels responsible. Patient. Strategic.
+
+It sounds better than the truth.
+
+Because the truth is uncomfortabl...]]></content:encoded>
+            <dc:creator>Surya Narayan</dc:creator>
+            <category>Founder Mindset</category>
+            <pubDate>Wed, 28 Jan 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://res.cloudinary.com/ddhhlkyut/image/upload/v1769621614/penguin_jlljzc.png" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Your SaaS Is Bloated Because You’re Afraid to Say No]]></title>
+            <link>https://surya.viilasa.com/blogs/saas-bloated-afraid-to-say-no</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/saas-bloated-afraid-to-say-no</guid>
+            <description><![CDATA[Discover why SaaS feature bloat drives user churn and how 'purposeful subtraction' can save your product. Learn to overcome the founder fear that leads to complex, confusing software.]]></description>
+            <content:encoded><![CDATA[
+## The Real Pain of SaaS Feature Bloat
+
+I didn’t hate SaaS tools because they were *bad*.
+
+I hated them because they **stole my time**.
+
+Not in small bites. Not in “oops I clicked something.” But in big, silent drains caused by **feature bloat**.
+
+I paid for “premium.” Upgraded. Subscribed. Committed.
+
+I got:
+
+- Fancy templates
+- Hundreds of widgets
+- Animations that look cool on sales pages
+
+But when it came down to *actually using it*?
+
+I used none of them.
+
+I’d open the ...]]></content:encoded>
+            <dc:creator>Surya Narayan</dc:creator>
+            <category>Product</category>
+            <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://res.cloudinary.com/ddhhlkyut/image/upload/v1768686551/saas_is_bloated_lxysfk.png" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Building ProofEdge: From Idea to Product]]></title>
+            <link>https://surya.viilasa.com/blogs/building-proofedge</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/building-proofedge</guid>
+            <description><![CDATA[The journey of building a social proof SaaS from scratch, including the challenges faced and lessons learned along the way.]]></description>
+            <content:encoded><![CDATA[
+# Building ProofEdge: From Idea to Product
+
+The journey started with a simple observation: **every successful website uses social proof**, but setting it up is unnecessarily complicated.
+
+## The Problem
+
+I noticed that most social proof solutions were either:
+- Too expensive for indie hackers
+- Too complex to integrate
+- Looking outdated and spammy
+
+## The Solution
+
+ProofEdge was born out of this frustration. I wanted to create something that was:
+
+1. **Simple to integrate** - Just one line of ...]]></content:encoded>
+            <dc:creator>Surya Narayan</dc:creator>
+            <category>Building</category>
+            <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[5 Lessons from My First Year as an Indie Hacker]]></title>
+            <link>https://surya.viilasa.com/blogs/indie-hacker-lessons</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/indie-hacker-lessons</guid>
+            <description><![CDATA[Reflecting on a year of building products, making mistakes, and learning what really matters.]]></description>
+            <content:encoded><![CDATA[
+# 5 Lessons from My First Year as an Indie Hacker
+
+After a year of building products independently, here are the most valuable lessons I've learned.
+
+## 1. Ideas Are Cheap, Execution Is Everything
+
+Everyone has ideas. The difference between dreamers and builders is **execution**.
+
+I used to spend weeks perfecting ideas in my head. Now I validate them in days.
+
+## 2. Revenue > Users
+
+Early on, I was obsessed with user counts. But users who don't pay are just numbers.
+
+> "If you're not embarrasse...]]></content:encoded>
+            <dc:creator>Surya Narayan</dc:creator>
+            <category>Lessons</category>
+            <pubDate>Mon, 05 Jan 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Why I Chose React Over Other Frameworks]]></title>
+            <link>https://surya.viilasa.com/blogs/why-react</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/why-react</guid>
+            <description><![CDATA[A deep dive into why React remains my frontend framework of choice in 2026.]]></description>
+            <content:encoded><![CDATA[
+# Why I Chose React Over Other Frameworks
+
+With so many frontend frameworks available today, here's why I still choose React.
+
+## The Contenders
+
+I've tried them all:
+- **Vue** - Great developer experience
+- **Svelte** - Innovative approach
+- **Angular** - Enterprise-ready
+- **React** - The ecosystem champion
+
+## Why React Wins (For Me)
+
+### 1. The Ecosystem
+
+React's ecosystem is unmatched:
+
+```bash
+npm install react-router-dom  # Routing
+npm install zustand           # State management
+npm ins...]]></content:encoded>
+            <dc:creator>Surya Narayan</dc:creator>
+            <category>Tech</category>
+            <pubDate>Sat, 20 Dec 2025 00:00:00 GMT</pubDate>
+            <enclosure url="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800" type="image/jpeg"/>
+        </item>
+    </channel>
+</rss>

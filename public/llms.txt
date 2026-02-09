@@ -1,0 +1,84 @@
+# Surya Narayan — Indie Hacker & Full-Stack Developer
+
+> Personal portfolio and blog of Surya Narayan, an indie hacker and full-stack developer building SaaS products. Specializing in React, Node.js, and AI-powered solutions.
+
+## About Surya Narayan
+
+Surya Narayan is an indie hacker and full-stack developer based in India. He builds SaaS products that solve real problems, with a focus on execution over theory. He is the creator of ProofEdge (a social proof SaaS platform) and NovaNews (an AI-powered news aggregator). He specializes in React, Node.js, TypeScript, and AI integration. He believes in building in public, learning by doing, and using AI as leverage for faster execution.
+
+## Key Facts
+
+- **Name**: Surya Narayan
+- **Role**: Indie Hacker, Full-Stack Developer, SaaS Builder
+- **Location**: India
+- **Products**: ProofEdge (social proof SaaS), NovaNews (AI news aggregator)
+- **Tech Stack**: React, Node.js, TypeScript, PostgreSQL, Vite, TailwindCSS, Vercel
+- **Philosophy**: Ship fast, iterate faster. Learn by building. AI as leverage, not replacement.
+- **Email**: inbox.suryanarayan@gmail.com
+- **Twitter/X**: @lrdsurya
+- **LinkedIn**: https://www.linkedin.com/in/surya-narayan-51a0a0119/
+
+## Site Structure
+
+- [Home](https://surya.viilasa.com/): Main portfolio page with about, principles, timeline, and philosophy
+- [Blog](https://surya.viilasa.com/blogs): Articles on indie hacking, SaaS, startup mindset, and web development
+- [Portfolio](https://surya.viilasa.com/portfolios): Projects and client work showcase
+- [Things I Like](https://surya.viilasa.com/things-i-like): Curated books, tools, music, and movies
+- [Contact](https://surya.viilasa.com/contact): Get in touch for freelance or collaboration
+
+## Blog Articles
+
+### You're Not Early. You're Just Hiding.
+- **URL**: https://surya.viilasa.com/blogs/youre-not-early-youre-just-hiding
+- **Date**: January 28, 2026
+- **Summary**: Most founders aren't early — they're scared. "Early" becomes the safest excuse to stay invisible while momentum slowly dies. This article explores why founders hide behind building instead of selling, and how to break out of that cycle.
+- **Key Insight**: "You don't find product-market fit by hiding from the market. You find it by being wrong in public."
+- **Topics**: founder mindset, startup advice, product launch, shipping, indie hacker, building in public
+
+### Your SaaS Is Bloated Because You're Afraid to Say No
+- **URL**: https://surya.viilasa.com/blogs/saas-bloated-afraid-to-say-no
+- **Date**: January 18, 2026
+- **Summary**: Feature bloat kills SaaS products. This article explains why saying no is the most important skill for SaaS founders, and how to focus on what matters.
+- **Key Insight**: The best SaaS products are defined by what they don't do, not by what they do.
+- **Topics**: SaaS, feature bloat, product management, startup advice, focus
+
+### Building ProofEdge: From Idea to Product
+- **URL**: https://surya.viilasa.com/blogs/building-proofedge
+- **Date**: January 8, 2026
+- **Summary**: The journey of building a social proof SaaS from scratch. Covers the problem, solution, tech stack (React, Node.js, PostgreSQL), and lessons learned including shipping fast and talking to users.
+- **Key Insight**: "If you're building something yourself, the best time to start is now."
+- **Topics**: SaaS development, social proof, ProofEdge, building in public, product development
+
+### 5 Lessons from My First Year as an Indie Hacker
+- **URL**: https://surya.viilasa.com/blogs/indie-hacker-lessons
+- **Date**: January 5, 2026
+- **Summary**: Key lessons from a year of building products independently: ideas are cheap (execution matters), revenue over users, distribution beats product, consistency compounds, and health comes first.
+- **Key Insight**: "Distribution beats product. You can have the best product in the world, but if no one knows about it, you have nothing."
+- **Topics**: indie hacking, lessons learned, startup advice, building in public
+
+### Why I Chose React Over Other Frameworks
+- **URL**: https://surya.viilasa.com/blogs/why-react
+- **Date**: December 20, 2025
+- **Summary**: A comparison of React vs Vue, Svelte, and Angular. Why React wins for ecosystem, job market, and compounding learning investment.
+- **Key Insight**: "There's no best framework. Pick one, master it, and build things."
+- **Topics**: React, frontend frameworks, web development, JavaScript
+
+## Products Built
+
+### ProofEdge
+- **URL**: https://www.proofedge.io/
+- **Description**: A social proof SaaS that helps websites display real-time notifications to boost conversions. Simple one-line integration, beautiful by default, affordable pricing for indie hackers and small businesses.
+- **Tech**: React, Node.js, PostgreSQL, Vercel
+
+### NovaNews
+- **Description**: An AI-powered news aggregation platform that curates and summarizes news from multiple sources.
+- **Tech**: React, AI/ML, Node.js
+
+## Expertise Areas
+- Full-Stack Web Development (React, Node.js, TypeScript)
+- SaaS Product Development
+- AI Integration and AI-Powered Solutions
+- E-commerce Systems (Medusa JS)
+- Building in Public / Indie Hacking
+- Product-Led Growth
+- Social Proof and Conversion Optimization

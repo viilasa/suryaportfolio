@@ -3,6 +3,7 @@ import { BookOpen, Wrench, Headphones, Sparkles, Film, ChevronLeft, ChevronRight
 import SectionHeading from '../components/SectionHeading';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 import thingsILikeData from '../data/thingsILike.json';
 
 const iconMap = {
@@ -266,6 +267,16 @@ const HorizontalScrollSection = ({ section }) => {
 const ThingsILikePage = () => {
     return (
         <div className="app">
+            <SEO
+                title="Things I Like"
+                description="Books, tools, music, and movies that inspire Surya Narayan. A curated collection of favorites from an indie hacker and full-stack developer."
+                url="/things-i-like"
+                keywords="Surya Narayan favorites, developer tools, indie hacker resources, books for developers, developer inspiration, curated recommendations"
+                breadcrumbs={[
+                    { name: "Home", url: "/" },
+                    { name: "Things I Like", url: "/things-i-like" }
+                ]}
+            />
             <Navbar />
             <main className="page likes-page likes-page--horizontal">
                 {/* Decorative elements */}

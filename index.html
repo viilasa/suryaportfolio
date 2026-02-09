@@ -7,12 +7,14 @@
   <meta name="google-site-verification" content="jVFw1Up-X-ID7cR7la8DDJDReFt33QbJAvEV-U3ZUww" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-LBJNV0LM9Q"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4CSERZYP4T"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-LBJNV0LM9Q');
+    gtag('config', 'G-4CSERZYP4T');
   </script>
 
   <!-- Microsoft Clarity -->
@@ -37,13 +39,13 @@
   <meta name="keywords"
     content="Surya Narayan, indie hacker, full-stack developer, SaaS builder, React developer, Node.js developer, web developer Goa, freelance developer India, ProofEdge, AI developer, startup founder, build in public, portfolio, software engineer, frontend developer, backend developer, JavaScript developer" />
   <meta name="author" content="Surya Narayan" />
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="language" content="English" />
   <meta name="revisit-after" content="7 days" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://suryaportfolio-omega.vercel.app/" />
+  <meta property="og:url" content="https://surya.viilasa.com/" />
   <meta property="og:title" content="Surya Narayan | Indie Hacker & Full-Stack Developer" />
   <meta property="og:description"
     content="Building SaaS products that solve real problems. React, Node.js, AI-powered solutions. Currently shipping ProofEdge & NovaNews." />
@@ -53,7 +55,7 @@
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://suryaportfolio-omega.vercel.app/" />
+  <meta property="twitter:url" content="https://surya.viilasa.com/" />
   <meta property="twitter:title" content="Surya Narayan | Indie Hacker & Full-Stack Developer" />
   <meta property="twitter:description"
     content="Building SaaS products that solve real problems. React, Node.js, AI-powered solutions. Currently shipping ProofEdge & NovaNews." />
@@ -64,18 +66,22 @@
 
   <!-- Additional SEO -->
   <meta name="theme-color" content="#18181b" />
-  <link rel="canonical" href="https://suryaportfolio-omega.vercel.app/" />
+  <link rel="canonical" href="https://surya.viilasa.com/" />
 
-  <!-- Structured Data / JSON-LD -->
+  <!-- RSS Feed & llms.txt for AI/GEO discovery -->
+  <link rel="alternate" type="application/rss+xml" title="Surya Narayan Blog RSS" href="https://surya.viilasa.com/rss.xml" />
+  <link rel="author" href="https://surya.viilasa.com/llms.txt" />
+
+  <!-- Structured Data / JSON-LD: Person -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Surya Narayan",
-    "url": "https://suryaportfolio-omega.vercel.app",
+    "url": "https://surya.viilasa.com",
     "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1747902976/Hero_2_t6lmp8.png",
     "jobTitle": "Full-Stack Developer & Indie Hacker",
-    "description": "Indie hacker building SaaS products. Specializing in React, Node.js, and AI-powered solutions.",
+    "description": "Indie hacker building SaaS products like ProofEdge and NovaNews. Specializing in React, Node.js, TypeScript, and AI-powered solutions. Based in India, building in public.",
     "sameAs": [
       "https://x.com/lrdsurya",
       "https://www.linkedin.com/in/surya-narayan-51a0a0119/",
@@ -83,13 +89,124 @@
     ],
     "knowsAbout": [
       "React", "Node.js", "JavaScript", "TypeScript", "SaaS Development", 
-      "Web Development", "AI Integration", "Startup Building", "Product Development"
+      "Web Development", "AI Integration", "Startup Building", "Product Development",
+      "Indie Hacking", "Building in Public", "E-commerce", "Medusa JS", "PostgreSQL",
+      "Vite", "TailwindCSS", "Social Proof", "Conversion Optimization"
     ],
     "worksFor": {
       "@type": "Organization",
       "name": "ProofEdge",
       "url": "https://www.proofedge.io/"
+    },
+    "email": "inbox.suryanarayan@gmail.com",
+    "nationality": {
+      "@type": "Country",
+      "name": "India"
     }
+  }
+  </script>
+
+  <!-- Structured Data / JSON-LD: WebSite with SearchAction (GEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Surya Narayan",
+    "alternateName": "Surya Narayan Portfolio",
+    "url": "https://surya.viilasa.com",
+    "description": "Personal portfolio and blog of Surya Narayan, an indie hacker and full-stack developer building SaaS products with React, Node.js, and AI.",
+    "inLanguage": "en-US",
+    "publisher": {
+      "@type": "Person",
+      "name": "Surya Narayan",
+      "url": "https://surya.viilasa.com"
+    }
+  }
+  </script>
+
+  <!-- Structured Data / JSON-LD: SiteNavigationElement (GEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SiteNavigationElement",
+    "name": "Main Navigation",
+    "hasPart": [
+      {
+        "@type": "WebPage",
+        "name": "Home",
+        "url": "https://surya.viilasa.com/"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Blog",
+        "url": "https://surya.viilasa.com/blogs"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Portfolio",
+        "url": "https://surya.viilasa.com/portfolios"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Things I Like",
+        "url": "https://surya.viilasa.com/things-i-like"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Contact",
+        "url": "https://surya.viilasa.com/contact"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data / JSON-LD: FAQPage for Homepage (GEO - AI engines extract Q&A) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Who is Surya Narayan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Surya Narayan is an indie hacker and full-stack developer from India who builds SaaS products like ProofEdge and NovaNews. He specializes in React, Node.js, TypeScript, and AI-powered solutions, and follows an execution-first philosophy of shipping fast and iterating faster."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is ProofEdge?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ProofEdge is a social proof SaaS platform built by Surya Narayan that helps websites display real-time notification popups to boost conversions. It features simple one-line code integration, beautiful default designs, and affordable pricing for indie hackers and small businesses. Visit proofedge.io for more."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What tech stack does Surya Narayan use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Surya primarily uses React, Node.js, TypeScript, PostgreSQL, Vite, and TailwindCSS for development. He deploys on Vercel and Railway. He is also learning Medusa JS for e-commerce systems."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I hire Surya Narayan as a developer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can reach Surya via the contact form at surya.viilasa.com/contact or email him at inbox.suryanarayan@gmail.com. He works on SaaS products, web applications, and freelance development projects for international clients."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Surya Narayan have a blog?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Surya writes about indie hacking, SaaS development, founder mindset, startup lessons, and web development on his blog at surya.viilasa.com/blogs. Popular articles include 'You're Not Early. You're Just Hiding.' and 'Your SaaS Is Bloated Because You're Afraid to Say No.'"
+        }
+      }
+    ]
   }
   </script>
 

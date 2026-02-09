@@ -7,6 +7,8 @@ excerpt: "Reflecting on a year of building products, making mistakes, and learni
 image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800"
 readTime: "4 min read"
 featured: false
+author: "Surya Narayan"
+keywords: "indie hacker lessons, first year indie hacker, startup lessons, building products, execution vs ideas, distribution marketing, consistency, founder burnout, building in public, Surya Narayan"
 ---
 
 # 5 Lessons from My First Year as an Indie Hacker

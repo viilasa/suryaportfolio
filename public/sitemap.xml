@@ -1,76 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    
-    <!-- Main Pages -->
     <url>
-        <loc>https://suryaportfolio-omega.vercel.app/</loc>
+        <loc>https://surya.viilasa.com/</loc>
         <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-        <lastmod>2026-01-28</lastmod>
+        <priority>1</priority>
+        <lastmod>2026-02-09</lastmod>
     </url>
-    
     <url>
-        <loc>https://suryaportfolio-omega.vercel.app/blogs</loc>
+        <loc>https://surya.viilasa.com/blogs</loc>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
-        <lastmod>2026-01-28</lastmod>
+        <lastmod>2026-02-09</lastmod>
     </url>
-    
     <url>
-        <loc>https://suryaportfolio-omega.vercel.app/portfolio</loc>
+        <loc>https://surya.viilasa.com/portfolios</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
-        <lastmod>2026-01-28</lastmod>
+        <lastmod>2026-02-09</lastmod>
     </url>
-    
     <url>
-        <loc>https://suryaportfolio-omega.vercel.app/things-i-like</loc>
+        <loc>https://surya.viilasa.com/things-i-like</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2026-01-28</lastmod>
+        <lastmod>2026-02-09</lastmod>
     </url>
-    
     <url>
-        <loc>https://suryaportfolio-omega.vercel.app/contact</loc>
+        <loc>https://surya.viilasa.com/contact</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2026-01-28</lastmod>
+        <lastmod>2026-02-09</lastmod>
     </url>
-    
-    <!-- Blog Posts -->
     <url>
-        <loc>https://suryaportfolio-omega.vercel.app/blogs/youre-not-early-youre-just-hiding</loc>
+        <loc>https://surya.viilasa.com/blogs/youre-not-early-youre-just-hiding</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <lastmod>2026-01-28</lastmod>
     </url>
-    
     <url>
-        <loc>https://suryaportfolio-omega.vercel.app/blogs/saas-bloated-afraid-to-say-no</loc>
+        <loc>https://surya.viilasa.com/blogs/saas-bloated-afraid-to-say-no</loc>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.8</priority>
         <lastmod>2026-01-18</lastmod>
     </url>
-    
     <url>
-        <loc>https://suryaportfolio-omega.vercel.app/blogs/building-proofedge</loc>
+        <loc>https://surya.viilasa.com/blogs/building-proofedge</loc>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.8</priority>
         <lastmod>2026-01-08</lastmod>
     </url>
-    
     <url>
-        <loc>https://suryaportfolio-omega.vercel.app/blogs/indie-hacker-lessons</loc>
+        <loc>https://surya.viilasa.com/blogs/indie-hacker-lessons</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <lastmod>2026-01-05</lastmod>
     </url>
-    
     <url>
-        <loc>https://suryaportfolio-omega.vercel.app/blogs/why-react</loc>
+        <loc>https://surya.viilasa.com/blogs/why-react</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <lastmod>2025-12-20</lastmod>
     </url>
-    
 </urlset>

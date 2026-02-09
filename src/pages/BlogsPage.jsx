@@ -147,8 +147,13 @@ const BlogsPage = () => {
         <div className="app">
             <SEO
                 title="Blog"
-                description="Ideas, lessons, and stories from my journey as a builder. Insights on indie hacking, SaaS, and building in public."
+                description="Ideas, lessons, and stories from my journey as a builder. Insights on indie hacking, SaaS, startup lessons, and building in public by Surya Narayan."
                 url="/blogs"
+                keywords="indie hacker blog, SaaS blog, building in public, startup lessons, founder blog, Surya Narayan blog, React developer blog, web development articles"
+                breadcrumbs={[
+                    { name: "Home", url: "/" },
+                    { name: "Blog", url: "/blogs" }
+                ]}
             />
             <Navbar />
             <main className="page blogs-page">

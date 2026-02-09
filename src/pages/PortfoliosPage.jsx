@@ -2,6 +2,7 @@ import { ExternalLink, Users } from 'lucide-react';
 import SectionHeading from '../components/SectionHeading';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 import portfoliosData from '../data/portfolios.json';
 
 const FeaturedProject = ({ project }) => (
@@ -117,6 +118,16 @@ const ClientWorkCard = ({ client, index }) => (
 const PortfoliosPage = () => {
     return (
         <div className="app">
+            <SEO
+                title="Portfolio"
+                description="Projects and client work by Surya Narayan. Full-stack developer building SaaS products like ProofEdge, NovaNews, and custom web applications with React, Node.js, and AI."
+                url="/portfolios"
+                keywords="Surya Narayan portfolio, full-stack developer projects, SaaS products, ProofEdge, NovaNews, React projects, indie hacker projects, web developer Goa, freelance developer India"
+                breadcrumbs={[
+                    { name: "Home", url: "/" },
+                    { name: "Portfolio", url: "/portfolios" }
+                ]}
+            />
             <Navbar />
             <main className="page portfolios-page">
                 {/* Decorative elements */}
