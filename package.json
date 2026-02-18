@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "sitemap": "node scripts/generate-sitemap.js",
-    "rss": "node scripts/generate-rss.js"
+    "rss": "node scripts/generate-rss.js",
+    "indexnow": "node scripts/indexnow.js"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
