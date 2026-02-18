@@ -1,4 +1,5 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { ArrowLeft, Calendar, Clock, Tag } from 'lucide-react';
@@ -9,8 +10,14 @@ import { getPostBySlug, getAllPosts } from '../utils/blogLoader';
 
 const BlogPostPage = () => {
     const { slug } = useParams();
+    const location = useLocation();
     const post = getPostBySlug(slug);
     const allPosts = getAllPosts();
+
+    // Scroll to top when navigating to a new blog post
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [slug]);
 
     // Get related posts (same category, excluding current)
     const relatedPosts = allPosts
@@ -78,9 +85,12 @@ const BlogPostPage = () => {
                     {/* Header */}
                     <header className="blog-post__header">
                         <div className="blog-post__meta">
-                            <span className="blog-post__category">
+                            <Link 
+                                to={`/blogs?category=${encodeURIComponent(post.category)}`}
+                                className="blog-post__category blog-post__category--link"
+                            >
                                 <Tag size={14} /> {post.category}
-                            </span>
+                            </Link>
                             <span className="blog-post__date">
                                 <Calendar size={14} /> {new Date(post.date).toLocaleDateString('en-US', {
                                     year: 'numeric',

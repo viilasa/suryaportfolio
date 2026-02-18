@@ -1,11 +1,11 @@
 import { Calendar, Clock, ArrowRight, Sparkles } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import SectionHeading from '../components/SectionHeading';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import { getAllPosts, getCategories } from '../utils/blogLoader';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 // Hero Featured Card - Large prominent display
 const HeroCard = ({ post }) => (
@@ -126,9 +126,33 @@ const BlogCard = ({ post, index }) => (
 );
 
 const BlogsPage = () => {
+    const [searchParams, setSearchParams] = useSearchParams();
     const allPosts = getAllPosts();
     const categories = getCategories();
-    const [activeCategory, setActiveCategory] = useState('All');
+    
+    // Get category from URL or default to 'All'
+    const categoryFromUrl = searchParams.get('category');
+    const [activeCategory, setActiveCategory] = useState(categoryFromUrl || 'All');
+
+    // Update active category when URL changes
+    useEffect(() => {
+        const cat = searchParams.get('category');
+        if (cat && categories.includes(cat)) {
+            setActiveCategory(cat);
+        } else if (!cat) {
+            setActiveCategory('All');
+        }
+    }, [searchParams, categories]);
+
+    // Update URL when category changes
+    const handleCategoryChange = (category) => {
+        setActiveCategory(category);
+        if (category === 'All') {
+            setSearchParams({});
+        } else {
+            setSearchParams({ category });
+        }
+    };
 
     // Get top 3 latest posts for the hero section
     const latestPosts = allPosts.slice(0, 3);
@@ -194,7 +218,7 @@ const BlogsPage = () => {
                                 <div className="blogs-filters">
                                     <button
                                         className={`blogs-filter ${activeCategory === 'All' ? 'blogs-filter--active' : ''}`}
-                                        onClick={() => setActiveCategory('All')}
+                                        onClick={() => handleCategoryChange('All')}
                                     >
                                         All
                                     </button>
@@ -202,7 +226,7 @@ const BlogsPage = () => {
                                         <button
                                             key={category}
                                             className={`blogs-filter ${activeCategory === category ? 'blogs-filter--active' : ''}`}
-                                            onClick={() => setActiveCategory(category)}
+                                            onClick={() => handleCategoryChange(category)}
                                         >
                                             {category}
                                         </button>

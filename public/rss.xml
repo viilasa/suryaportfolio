@@ -5,7 +5,7 @@
         <link>https://surya.viilasa.com/blogs</link>
         <description>Ideas, lessons, and stories from an indie hacker building SaaS products. Insights on indie hacking, SaaS, startup mindset, and web development.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 18 Feb 2026 18:48:01 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 19:10:16 GMT</lastBuildDate>
         <atom:link href="https://surya.viilasa.com/rss.xml" rel="self" type="application/rss+xml"/>
         <managingEditor>inbox.suryanarayan@gmail.com (Surya Narayan)</managingEditor>
         <webMaster>inbox.suryanarayan@gmail.com (Surya Narayan)</webMaster>
@@ -33,7 +33,7 @@
             <dc:creator>Surya Narayan</dc:creator>
             <category>Growth</category>
             <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
-            <enclosure url="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200" type="image/jpeg"/>
+            <enclosure url="https://res.cloudinary.com/ddhhlkyut/image/upload/v1771441415/social_prof_widget_h2s7ap.png" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Your Website Is Lying to Every Visitor Who Lands on It]]></title>
@@ -57,7 +57,7 @@ Not because your product is bad. Not because your copy isn't sharp enough. But b
             <dc:creator>Surya Narayan</dc:creator>
             <category>Growth</category>
             <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
-            <enclosure url="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200" type="image/jpeg"/>
+            <enclosure url="https://res.cloudinary.com/ddhhlkyut/image/upload/v1771440557/laptop_nvrlsb.png" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[You're Not Early. You're Just Hiding.]]></title>

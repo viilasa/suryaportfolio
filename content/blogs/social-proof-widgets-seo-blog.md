@@ -4,7 +4,7 @@ slug: "social-proof-widgets-complete-guide"
 date: "2026-02-19"
 category: "Growth"
 excerpt: "Learn what social proof widgets are, why they matter for your website, the 7 types that drive conversions, and how to set them up the right way. Includes stats, examples, and tool recommendations."
-image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200"
+image: "https://res.cloudinary.com/ddhhlkyut/image/upload/v1771441415/social_prof_widget_h2s7ap.png"
 readTime: "12 min read"
 featured: true
 author: "Surya Narayan"
@@ -54,6 +54,8 @@ Modern widget tools like **[ProofEdge.io](https://proofedge.io)** combine multip
 To understand why social proof widgets work so well, you need to understand the behavioral principle behind them.
 
 In 1984, Dr. Robert Cialdini introduced the concept of social proof in his landmark book *Influence: The Psychology of Persuasion*. His central argument: when people are uncertain about what to do, they look at what others are doing and copy it.
+
+![Resturent](https://res.cloudinary.com/ddhhlkyut/image/upload/v1771441415/resturent_i3rcxb.png)
 
 This isn't irrational behavior. It's a cognitive shortcut — a heuristic our brains developed because, statistically, if many people are doing something, it's probably safe and worthwhile.
 

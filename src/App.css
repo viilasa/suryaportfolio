@@ -2622,6 +2622,18 @@ img {
   font-weight: 600;
 }
 
+.blog-post__category--link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.blog-post__category--link:hover {
+  background: var(--color-zinc-200);
+  transform: translateY(-1px);
+}
+
 .blog-post__title {
   font-size: 2.5rem;
   font-weight: 900;
