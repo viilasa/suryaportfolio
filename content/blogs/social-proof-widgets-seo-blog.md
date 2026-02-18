@@ -128,7 +128,7 @@ Star rating badges provide instant trust validation without requiring the visito
 Best for: pricing pages, checkout pages, hero sections.
 
 ### 5. Conversion Counter Widgets
-
+![Conversion Counter](https://res.cloudinary.com/ddhhlkyut/image/upload/v1771443859/conver_kpsstl.png)
 Conversion counters display cumulative activity milestones. Example: *"Join 12,400 businesses already using [Product]."*
 
 These create momentum and signal established credibility. They're most effective when the numbers are genuinely impressive and updated automatically, rather than set manually and forgotten.
@@ -136,6 +136,7 @@ These create momentum and signal established credibility. They're most effective
 Best for: homepage hero sections, signup landing pages, product pages.
 
 ### 6. Scarcity and Availability Widgets
+![Scarcity and Availability](https://res.cloudinary.com/ddhhlkyut/image/upload/v1771443859/conver_kpsstl.png)
 
 These widgets display limited availability signals in real time. Example: *"Only 3 spots left at this price"* or *"Offer ends in 04:32:17."*
 
@@ -144,6 +145,8 @@ When backed by genuine data — not fabricated urgency — scarcity widgets trig
 Best for: limited enrollment offers, flash sales, limited-edition products.
 
 ### 7. Video Testimonial Widgets
+![Video Testimonial](https://res.cloudinary.com/ddhhlkyut/image/upload/v1771444549/vid_fgtfta.png)
+
 
 Video testimonial widgets embed short customer video testimonials directly into landing or product pages. Video adds a dimension of authenticity that text reviews can't match — you can see the person, hear their voice, and read their facial expression.
 
