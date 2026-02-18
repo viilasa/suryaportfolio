@@ -161,8 +161,15 @@ const BlogPostPage = () => {
                                         to={`/blogs/${related.slug}`}
                                         className="blog-post__related-card"
                                     >
-                                        <span className="blog-post__related-category">{related.category}</span>
-                                        <h4>{related.title}</h4>
+                                        {related.image && (
+                                            <div className="blog-post__related-image">
+                                                <img src={related.image} alt={related.title} />
+                                            </div>
+                                        )}
+                                        <div className="blog-post__related-content">
+                                            <span className="blog-post__related-category">{related.category}</span>
+                                            <h4>{related.title}</h4>
+                                        </div>
                                     </Link>
                                 ))}
                             </div>

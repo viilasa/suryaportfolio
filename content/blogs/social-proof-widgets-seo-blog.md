@@ -79,11 +79,15 @@ The impact of social proof on website conversions is well-documented across indu
 - Businesses that add real-time social proof notifications report a **10–15% average conversion lift within 30 days**
 - Dynamic FOMO widgets (live purchase notifications, countdown timers) have driven **17% conversion uplifts** in documented case studies
 
+![Conversion Stats](https://res.cloudinary.com/ddhhlkyut/image/upload/v1771442277/upconver_luasgm.png)
+
 These numbers aren't outliers — they represent a consistent pattern. When visitors can see that other people are actively engaging with a business, their own willingness to engage goes up significantly.
 
 ---
 
 ## 7 Types of Social Proof Widgets for Websites
+![Widget Types](https://res.cloudinary.com/ddhhlkyut/image/upload/v1771442940/widgetrs_csmh7p.png)
+
 
 Not every social proof widget works the same way. The right type for your site depends on your business model, traffic volume, and conversion goals. Here's a breakdown of the seven most effective types:
 
@@ -208,6 +212,8 @@ Setting up social proof widgets has never been easier with modern tools. Here's 
 **Too many widgets at once.** Stacking five different widget types on every page creates noise, not trust. Start with one or two widget types on your highest-traffic pages and expand from there.
 
 **Ignoring mobile.** More than half of web traffic is mobile. Make sure your social proof widgets are responsive, appropriately sized, and don't cover critical buttons or navigation on small screens.
+![Mobile Optimization](https://res.cloudinary.com/ddhhlkyut/image/upload/v1771442698/resmob_vrylmj.png)
+
 
 **Setting it and forgetting it.** Social proof requires maintenance. Review your widget performance monthly. If your conversion numbers or review volume have grown, update your messaging to reflect that.
 
@@ -253,8 +259,10 @@ If you haven't already added social proof widgets to your site, start today. Cho
 
 For businesses that want a complete, easy-to-deploy social proof solution, **[ProofEdge.io](https://proofedge.io)** gives you every widget type you need, real data integration, and a setup process that takes minutes — not days.
 
+![Lone Visitor](https://res.cloudinary.com/ddhhlkyut/image/upload/v1771442501/lone_qscowi.png)
+
 The visitors are already landing on your site. Social proof determines whether they stay, trust you, and convert — or leave and forget you existed.
 
 ---
 
-*Last updated: 2025 | Category: Conversion Optimization, Website Marketing, Social Proof*
+

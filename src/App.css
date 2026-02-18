@@ -2812,14 +2812,38 @@ img {
 }
 
 .blog-post__related-card {
-  padding: 1.5rem;
   background: var(--color-zinc-50);
   border-radius: var(--radius-lg);
   transition: all var(--transition-fast);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .blog-post__related-card:hover {
   background: var(--color-zinc-100);
+  transform: translateY(-2px);
+}
+
+.blog-post__related-image {
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+}
+
+.blog-post__related-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blog-post__related-card:hover .blog-post__related-image img {
+  transform: scale(1.05);
+}
+
+.blog-post__related-content {
+  padding: 1rem 1.25rem 1.25rem;
 }
 
 .blog-post__related-category {
