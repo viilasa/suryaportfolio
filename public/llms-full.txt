@@ -59,6 +59,24 @@ A: Yes. His blog at https://surya.viilasa.com/blogs covers topics like indie hac
 
 ## Complete Blog Content
 
+### Article: Your Website Is Lying to Every Visitor Who Lands on It
+- **Published**: February 19, 2026
+- **Author**: Surya Narayan
+- **Category**: Growth
+- **Read Time**: 10 min
+- **URL**: https://surya.viilasa.com/blogs/your-website-is-lying-to-every-visitor
+
+Most websites are graveyards. People show up, look around for 8 seconds, and leave. The uncomfortable truth: your visitors don't trust you — not because your product is bad, but because human beings are wired to look at what other people are doing before they act. This is social proof — the psychological phenomenon where people assume the actions of others reflect the correct behavior.
+
+Key concepts:
+- Social proof creates "cognitive ease" — the feeling that something is familiar, safe, and verified by others.
+- The 5 types that work: Recent Activity Notifications, Live Visitor Counts, Purchase & Signup Streams, Review Aggregations, Countdown + Scarcity Triggers.
+- Social proof is not a section at the bottom of the page. It's a layer woven into the experience from the first second to the last click.
+- ProofEdge (proofedge.io) provides real-time social proof widgets — purchases, sign-ups, live visitors, reviews — as clean, customizable overlays.
+- Social proof compounds: more trust → more conversions → more social proof → more trust. The flywheel is self-reinforcing.
+
+Quotable: "Social proof isn't a tactic. It's the oldest conversion mechanism in human history. Your website either speaks that language — or it doesn't."
+
 ### Article: You're Not Early. You're Just Hiding.
 - **Published**: January 28, 2026
 - **Author**: Surya Narayan

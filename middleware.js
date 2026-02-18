@@ -44,6 +44,15 @@ const blogPosts = {
         category: 'Tech',
         readTime: '6 min read',
         keywords: 'React vs Vue, React vs Svelte, frontend framework comparison, JavaScript frameworks'
+    },
+    'your-website-is-lying-to-every-visitor': {
+        title: 'Your Website Is Lying to Every Visitor Who Lands on It',
+        description: "Most websites are graveyards. People show up, look around for 8 seconds, and leave. Your visitors don't trust you — not because your product is bad, but because your site doesn't speak the language of social proof.",
+        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200',
+        date: '2026-02-19',
+        category: 'Growth',
+        readTime: '10 min read',
+        keywords: 'social proof, conversion optimization, website trust, social proof widgets, ProofEdge, CRO, trust signals, landing page optimization, bounce rate reduction, SaaS growth'
     }
 };
 

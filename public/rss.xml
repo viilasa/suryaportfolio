@@ -5,7 +5,7 @@
         <link>https://surya.viilasa.com/blogs</link>
         <description>Ideas, lessons, and stories from an indie hacker building SaaS products. Insights on indie hacking, SaaS, startup mindset, and web development.</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 09 Feb 2026 18:43:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 18:39:41 GMT</lastBuildDate>
         <atom:link href="https://surya.viilasa.com/rss.xml" rel="self" type="application/rss+xml"/>
         <managingEditor>inbox.suryanarayan@gmail.com (Surya Narayan)</managingEditor>
         <webMaster>inbox.suryanarayan@gmail.com (Surya Narayan)</webMaster>
@@ -16,6 +16,30 @@
             <title>Surya Narayan Blog</title>
             <link>https://surya.viilasa.com/blogs</link>
         </image>
+        <item>
+            <title><![CDATA[Your Website Is Lying to Every Visitor Who Lands on It]]></title>
+            <link>https://surya.viilasa.com/blogs/your-website-is-lying-to-every-visitor</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/your-website-is-lying-to-every-visitor</guid>
+            <description><![CDATA[Most websites are graveyards. People show up, look around for 8 seconds, and leave. The uncomfortable truth? Your visitors don't trust you — not because your product is bad, but because your site doesn't speak the language of social proof.]]></description>
+            <content:encoded><![CDATA[
+# Your Website Is Lying to Every Visitor Who Lands on It
+
+Most websites are graveyards.
+
+People show up, look around for 8 seconds, and leave — never to return.
+
+You've spent money on ads. You've obsessed over your headline. You've A/B tested your CTA button color three times this month.
+
+And still, nothing.
+
+Here's the uncomfortable truth: **your visitors don't trust you.**
+
+Not because your product is bad. Not because your copy isn't sharp enough. But because human beings are wired — at a neu...]]></content:encoded>
+            <dc:creator>Surya Narayan</dc:creator>
+            <category>Growth</category>
+            <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[You're Not Early. You're Just Hiding.]]></title>
             <link>https://surya.viilasa.com/blogs/youre-not-early-youre-just-hiding</link>

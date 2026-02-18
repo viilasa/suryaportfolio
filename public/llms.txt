@@ -28,6 +28,13 @@ Surya Narayan is an indie hacker and full-stack developer based in India. He bui
 
 ## Blog Articles
 
+### Your Website Is Lying to Every Visitor Who Lands on It
+- **URL**: https://surya.viilasa.com/blogs/your-website-is-lying-to-every-visitor
+- **Date**: February 19, 2026
+- **Summary**: Most websites lose visitors in 8 seconds because they lack social proof. This article explores the psychology behind trust signals, the 5 types of social proof that actually convert, and why real-time social proof widgets like ProofEdge create a compounding trust flywheel.
+- **Key Insight**: "Social proof is not a section. It's a layer. It needs to be woven into the experience from the first second to the last click."
+- **Topics**: social proof, conversion optimization, website trust, ProofEdge, CRO, FOMO, landing page psychology, bounce rate reduction
+
 ### You're Not Early. You're Just Hiding.
 - **URL**: https://surya.viilasa.com/blogs/youre-not-early-youre-just-hiding
 - **Date**: January 28, 2026
