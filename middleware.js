@@ -11,8 +11,8 @@ const blogPosts = {
     },
     'saas-bloated-afraid-to-say-no': {
         title: "Your SaaS Is Bloated Because You're Afraid to Say No",
-        description: "Feature bloat kills products. Learn why saying no is the most important skill for SaaS founders.",
-        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200',
+        description: "Discover why SaaS feature bloat drives user churn and how 'purposeful subtraction' can save your product. Learn to overcome the founder fear that leads to complex, confusing software.",
+        image: 'https://res.cloudinary.com/ddhhlkyut/image/upload/v1768686551/saas_is_bloated_lxysfk.png',
         date: '2026-01-18',
         category: 'SaaS',
         readTime: '7 min read',
@@ -29,8 +29,8 @@ const blogPosts = {
     },
     'indie-hacker-lessons': {
         title: '5 Lessons from My First Year as an Indie Hacker',
-        description: 'Key lessons learned from building products independently — execution, distribution, consistency, and health.',
-        image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200',
+        description: 'Reflecting on a year of building products, making mistakes, and learning what really matters.',
+        image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200',
         date: '2026-01-05',
         category: 'Lessons',
         readTime: '4 min read',
@@ -48,7 +48,7 @@ const blogPosts = {
     'your-website-is-lying-to-every-visitor': {
         title: 'Your Website Is Lying to Every Visitor Who Lands on It',
         description: "Most websites are graveyards. People show up, look around for 8 seconds, and leave. Your visitors don't trust you — not because your product is bad, but because your site doesn't speak the language of social proof.",
-        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200',
+        image: 'https://res.cloudinary.com/ddhhlkyut/image/upload/v1771440557/laptop_nvrlsb.png',
         date: '2026-02-19',
         category: 'Growth',
         readTime: '10 min read',
@@ -57,7 +57,7 @@ const blogPosts = {
     'social-proof-widgets-complete-guide': {
         title: 'What Are Social Proof Widgets? The Complete Guide to Boosting Website Conversions in 2025',
         description: 'Learn what social proof widgets are, why they matter for your website, the 7 types that drive conversions, and how to set them up the right way. Includes stats, examples, and tool recommendations.',
-        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200',
+        image: 'https://res.cloudinary.com/ddhhlkyut/image/upload/v1771441415/social_prof_widget_h2s7ap.png',
         date: '2026-02-19',
         category: 'Growth',
         readTime: '12 min read',
