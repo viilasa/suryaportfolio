@@ -28,6 +28,13 @@ Surya Narayan is an indie hacker and full-stack developer based in India. He bui
 
 ## Blog Articles
 
+### What Are Social Proof Widgets? The Complete Guide to Boosting Website Conversions in 2025
+- **URL**: https://surya.viilasa.com/blogs/social-proof-widgets-complete-guide
+- **Date**: February 19, 2026
+- **Summary**: The definitive guide to social proof widgets — what they are, why they work (Robert Cialdini's psychology), the 7 types that drive conversions, where to place them, how to choose a tool, step-by-step setup guide, and common mistakes to avoid. Includes conversion statistics and FAQ.
+- **Key Insight**: "Social proof widgets are the digital equivalent of a packed restaurant. They signal to first-time visitors: this place is worth your time, and other people are already here."
+- **Topics**: social proof widgets, conversion optimization, FOMO marketing, purchase notifications, live visitor counter, review widgets, ProofEdge, trust signals
+
 ### Your Website Is Lying to Every Visitor Who Lands on It
 - **URL**: https://surya.viilasa.com/blogs/your-website-is-lying-to-every-visitor
 - **Date**: February 19, 2026

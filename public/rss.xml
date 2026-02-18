@@ -5,7 +5,7 @@
         <link>https://surya.viilasa.com/blogs</link>
         <description>Ideas, lessons, and stories from an indie hacker building SaaS products. Insights on indie hacking, SaaS, startup mindset, and web development.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 18 Feb 2026 18:39:41 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 18:48:01 GMT</lastBuildDate>
         <atom:link href="https://surya.viilasa.com/rss.xml" rel="self" type="application/rss+xml"/>
         <managingEditor>inbox.suryanarayan@gmail.com (Surya Narayan)</managingEditor>
         <webMaster>inbox.suryanarayan@gmail.com (Surya Narayan)</webMaster>
@@ -16,6 +16,25 @@
             <title>Surya Narayan Blog</title>
             <link>https://surya.viilasa.com/blogs</link>
         </image>
+        <item>
+            <title><![CDATA[What Are Social Proof Widgets? The Complete Guide to Boosting Website Conversions in 2026]]></title>
+            <link>https://surya.viilasa.com/blogs/social-proof-widgets-complete-guide</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/social-proof-widgets-complete-guide</guid>
+            <description><![CDATA[Learn what social proof widgets are, why they matter for your website, the 7 types that drive conversions, and how to set them up the right way. Includes stats, examples, and tool recommendations.]]></description>
+            <content:encoded><![CDATA[
+# What Are Social Proof Widgets? The Complete Guide to Boosting Website Conversions in 2025
+
+## Table of Contents
+1. [What Are Social Proof Widgets?](#what-are-social-proof-widgets)
+2. [Why Social Proof Matters: The Psychology Behind It](#why-social-proof-matters)
+3. [The Stats That Prove It Works](#the-stats-that-prove-it-works)
+4. [7 Types of Social Proof Widgets for Websites](#7-types-of-social-proof-widgets)
+5. [Where to Place Social Proof Widgets on Your Website](#where-to-place-social-pro...]]></content:encoded>
+            <dc:creator>Surya Narayan</dc:creator>
+            <category>Growth</category>
+            <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Your Website Is Lying to Every Visitor Who Lands on It]]></title>
             <link>https://surya.viilasa.com/blogs/your-website-is-lying-to-every-visitor</link>

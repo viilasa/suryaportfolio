@@ -53,6 +53,15 @@ const blogPosts = {
         category: 'Growth',
         readTime: '10 min read',
         keywords: 'social proof, conversion optimization, website trust, social proof widgets, ProofEdge, CRO, trust signals, landing page optimization, bounce rate reduction, SaaS growth'
+    },
+    'social-proof-widgets-complete-guide': {
+        title: 'What Are Social Proof Widgets? The Complete Guide to Boosting Website Conversions in 2025',
+        description: 'Learn what social proof widgets are, why they matter for your website, the 7 types that drive conversions, and how to set them up the right way. Includes stats, examples, and tool recommendations.',
+        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200',
+        date: '2026-02-19',
+        category: 'Growth',
+        readTime: '12 min read',
+        keywords: 'social proof widgets, website conversion optimization, FOMO marketing, purchase notifications, live visitor counter, review widgets, ProofEdge, conversion rate optimization, trust signals'
     }
 };
 

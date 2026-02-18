@@ -4,7 +4,7 @@ slug: "your-website-is-lying-to-every-visitor"
 date: "2026-02-19"
 category: "Growth"
 excerpt: "Most websites are graveyards. People show up, look around for 8 seconds, and leave. The uncomfortable truth? Your visitors don't trust you — not because your product is bad, but because your site doesn't speak the language of social proof."
-image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200"
+image: "https://res.cloudinary.com/ddhhlkyut/image/upload/v1771440557/laptop_nvrlsb.png"
 readTime: "10 min read"
 featured: true
 author: "Surya Narayan"
