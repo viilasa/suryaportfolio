@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && npm run sitemap && npm run rss",
+    "build": "vite build && npm run sitemap && npm run rss && npm run og-pages",
+    "og-pages": "node scripts/generate-og-pages.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "sitemap": "node scripts/generate-sitemap.js",
