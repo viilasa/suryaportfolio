@@ -92,6 +92,7 @@ These numbers aren't outliers — they represent a consistent pattern. When visi
 Not every social proof widget works the same way. The right type for your site depends on your business model, traffic volume, and conversion goals. Here's a breakdown of the seven most effective types:
 
 ### 1. Recent Purchase / Sign-Up Notifications
+![Recent Purchase](https://res.cloudinary.com/ddhhlkyut/image/upload/v1771443197/recent_nwnotz.png)
 
 These are small pop-up notifications that appear in the corner of the screen, showing recent customer actions in real time. Example: *"Sarah from Austin just purchased the Pro Plan — 3 minutes ago."*
 
@@ -100,6 +101,7 @@ This type works because it combines social proof with FOMO (fear of missing out)
 Best for: e-commerce stores, SaaS products, online courses, and subscription services.
 
 ### 2. Live Visitor Count Widgets
+![Live Visitor Count](https://res.cloudinary.com/ddhhlkyut/image/upload/v1771443422/live_y0p8wr.png)
 
 A live visitor counter shows how many people are currently viewing a specific page. Example: *"32 people are looking at this right now."*
 
@@ -108,6 +110,7 @@ This is particularly powerful on product pages and pricing pages because it sign
 Best for: high-traffic pages, limited availability products, event registrations.
 
 ### 3. Review and Rating Widgets
+![Review Widget](https://res.cloudinary.com/ddhhlkyut/image/upload/v1771443510/review_sxdfvx.png)
 
 Review widgets pull in your latest customer reviews from platforms like Google, Trustpilot, or your own database and display them dynamically on your site. Unlike copy-pasted testimonials, these update automatically as new reviews come in.
 
@@ -116,6 +119,7 @@ Dynamic review widgets are more credible because visitors can see the recency of
 Best for: service businesses, SaaS companies, agencies, and any business where reputation is central to the buying decision.
 
 ### 4. Aggregate Star Rating Badges
+![Aggregate Star Rating](https://res.cloudinary.com/ddhhlkyut/image/upload/v1771443602/agg_nhtaoc.png)
 
 These compact widgets display your overall star rating and total review count — typically placed near a CTA, in the header, or on a pricing page. Example: *"★★★★★ 4.9 — 1,240 reviews."*
 
