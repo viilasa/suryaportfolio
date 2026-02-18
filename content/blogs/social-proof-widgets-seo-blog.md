@@ -193,7 +193,7 @@ Setting up social proof widgets has never been easier with modern tools. Here's 
 
 **Step 5: Set your targeting rules.** Define which pages the widget should appear on. You might show purchase notifications on product pages but switch to a visitor counter on your pricing page.
 
-**Step 6: Install the embed code.** Copy the single line of JavaScript and paste it before the closing `</body>` tag on your website — or install the native plugin if you're on WordPress or Shopify.
+**Step 6: Install the embed code.** Copy the embed script and paste it inside the <head> tag of your website — or install the native plugin if you're on WordPress or Shopify.
 
 **Step 7: Monitor and optimize.** Use ProofEdge's analytics dashboard to track widget performance. Watch your conversion rate over the next 14–30 days and adjust widget type, placement, or timing based on the data.
 
