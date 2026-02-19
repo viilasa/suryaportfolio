@@ -2205,6 +2205,10 @@ img {
   line-height: 1.2;
   margin-bottom: 0.75rem;
   letter-spacing: -0.02em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
