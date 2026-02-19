@@ -2162,12 +2162,14 @@ img {
   left: 0;
   right: 0;
   padding: 2rem;
+  padding-bottom: 4rem;
   color: var(--color-white);
 }
 
 @media (min-width: 768px) {
   .blogs-hero__content {
     padding: 2.5rem;
+    padding-bottom: 5rem;
   }
 }
 
