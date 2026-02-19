@@ -1,4 +1,4 @@
-import { Calendar, Clock, ArrowRight, Sparkles } from 'lucide-react';
+import { Calendar, Clock, Sparkles } from 'lucide-react';
 import { Link, useSearchParams } from 'react-router-dom';
 import SectionHeading from '../components/SectionHeading';
 import Navbar from '../components/Navbar';
@@ -41,9 +41,6 @@ const HeroCard = ({ post }) => (
                     </span>
                 )}
             </div>
-            <span className="blogs-hero__cta">
-                Read Article <ArrowRight size={18} />
-            </span>
         </div>
     </Link>
 );
@@ -118,9 +115,6 @@ const BlogCard = ({ post, index }) => (
                     </span>
                 )}
             </div>
-            <span className="blog-card__link">
-                Read More <ArrowRight size={16} />
-            </span>
         </div>
     </Link>
 );
@@ -154,18 +148,18 @@ const BlogsPage = () => {
         }
     };
 
-    // Get top 3 latest posts for the hero section
-    const latestPosts = allPosts.slice(0, 3);
+    // Filter all posts by category first
+    const filteredAllPosts = activeCategory === 'All'
+        ? allPosts
+        : allPosts.filter(post => post.category === activeCategory);
+
+    // Get top 3 latest posts for the hero section (from filtered posts)
+    const latestPosts = filteredAllPosts.slice(0, 3);
     const mainHeroPost = latestPosts[0];
     const secondaryPosts = latestPosts.slice(1, 3);
 
-    // Remaining posts for the grid (excluding top 3)
-    const remainingPosts = allPosts.slice(3);
-
-    // Filter remaining posts by category
-    const filteredPosts = activeCategory === 'All'
-        ? remainingPosts
-        : remainingPosts.filter(post => post.category === activeCategory);
+    // Remaining posts for the grid (excluding top 3 from filtered)
+    const filteredPosts = filteredAllPosts.slice(3);
 
     return (
         <div className="app">
