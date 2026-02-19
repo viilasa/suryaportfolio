@@ -59,6 +59,26 @@ A: Yes. His blog at https://surya.viilasa.com/blogs covers topics like indie hac
 
 ## Complete Blog Content
 
+### Article: Why 99% of Vibe Coders Will Never Make a Dollar (And What the 1% Do Differently)
+- **Published**: February 20, 2026
+- **Author**: Surya Narayan
+- **Category**: Founder Mindset
+- **Read Time**: 12 min
+- **URL**: https://surya.viilasa.com/blogs/vibe-coders-make-money
+
+Everyone's building. Nobody's selling. The vibe coding wave promised an era where anyone could build a product — no CS degree, no 10,000 hours of LeetCode. Just you, your ideas, and an AI that turns English into working software. The promise delivered. Building is now trivially easy. And that's exactly the problem.
+
+Key concepts:
+- The illusion: "If I can just build the thing, the money will follow." It won't.
+- The people making money brought something BEFORE the code — skills, clients, audience, domain knowledge.
+- When everyone can build, building becomes worthless. The only leverage is distribution: audience, trust, reach, relationships.
+- Gold rush pattern: tools get democratized, barrier drops to zero, thousands flood in thinking the tool IS the opportunity, most leave with nothing.
+- What works: Go niche to discomfort, have something to sell before you build, treat distribution as first-class problem.
+- Think of vibe coding as force multiplier for existing skills, not a standalone opportunity.
+- Services before products: shorter path to revenue, then productize.
+
+Quotable: "The bottleneck has always been distribution. Vibe coding just made that fact impossible to ignore."
+
 ### Article: What Are Social Proof Widgets? The Complete Guide to Boosting Website Conversions in 2025
 - **Published**: February 19, 2026
 - **Author**: Surya Narayan

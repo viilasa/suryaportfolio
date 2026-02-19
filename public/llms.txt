@@ -28,6 +28,13 @@ Surya Narayan is an indie hacker and full-stack developer based in India. He bui
 
 ## Blog Articles
 
+### Why 99% of Vibe Coders Will Never Make a Dollar (And What the 1% Do Differently)
+- **URL**: https://surya.viilasa.com/blogs/vibe-coders-make-money
+- **Date**: February 20, 2026
+- **Summary**: Everyone's building. Nobody's selling. The vibe coding wave made building trivially easy — and that's exactly the problem. This article explores why distribution, not building, is the real bottleneck, and what the 1% who make money do differently.
+- **Key Insight**: "When everyone can build, building becomes worthless. The only thing that creates leverage in a world of infinite builders is distribution."
+- **Topics**: vibe coding, AI coding, make money coding, indie hacker, solopreneur, distribution, building products, AI tools, selling software, startup advice
+
 ### What Are Social Proof Widgets? The Complete Guide to Boosting Website Conversions in 2025
 - **URL**: https://surya.viilasa.com/blogs/social-proof-widgets-complete-guide
 - **Date**: February 19, 2026
