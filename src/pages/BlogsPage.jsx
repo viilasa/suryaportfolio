@@ -205,7 +205,7 @@ const BlogsPage = () => {
                     )}
 
                     {/* All Posts Section */}
-                    {remainingPosts.length > 0 && (
+                    {filteredPosts.length > 0 && (
                         <>
                             <div className="blogs-section-header">
                                 <h2 className="blogs-section-title">All Articles</h2>
@@ -244,7 +244,7 @@ const BlogsPage = () => {
                     )}
 
                     {/* If only hero posts exist and no remaining posts */}
-                    {remainingPosts.length === 0 && latestPosts.length > 0 && (
+                    {filteredPosts.length === 0 && latestPosts.length > 0 && (
                         <div className="blogs-more-coming">
                             <p>More articles coming soon...</p>
                         </div>
