@@ -1,0 +1,33 @@
+---
+const navLinks = [
+    { href: '/', label: 'Home' },
+    { href: '/blogs', label: 'Blog' },
+    { href: '/portfolio', label: 'Portfolio' },
+    { href: '/contact', label: 'Contact' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-zinc-50/80 backdrop-blur-md border-b border-zinc-200">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="/" class="text-xl font-bold text-zinc-900 hover:text-emerald-600 transition-colors">
+            Surya<span class="text-emerald-500">.</span>
+        </a>
+        
+        <div class="flex items-center gap-8">
+            {navLinks.map((link) => (
+                <a 
+                    href={link.href}
+                    class={`text-sm font-medium transition-colors ${
+                        currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href))
+                            ? 'text-emerald-600' 
+                            : 'text-zinc-600 hover:text-zinc-900'
+                    }`}
+                >
+                    {link.label}
+                </a>
+            ))}
+        </div>
+    </div>
+</nav>

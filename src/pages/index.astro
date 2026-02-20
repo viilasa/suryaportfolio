@@ -1,0 +1,112 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+
+const allPosts = await getCollection('blogs');
+const latestPosts = allPosts
+    .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+    .slice(0, 3);
+---
+
+<BaseLayout 
+    title="Indie Hacker & Full-Stack Developer"
+    description="I'm Surya Narayan, an indie hacker and full-stack developer building SaaS products like ProofEdge. I specialize in React, Node.js, and AI-powered solutions."
+>
+    <Navbar />
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="pt-32 pb-20 px-6">
+            <div class="container mx-auto max-w-4xl text-center">
+                <p class="text-emerald-600 font-medium mb-4">Hey, I'm Surya 👋</p>
+                <h1 class="text-4xl md:text-6xl font-bold text-zinc-900 mb-6 leading-tight">
+                    Indie Hacker & <br/>Full-Stack Developer
+                </h1>
+                <p class="text-xl text-zinc-600 mb-8 max-w-2xl mx-auto">
+                    Building SaaS products that solve real problems. Currently shipping 
+                    <a href="https://proofedge.io" target="_blank" class="text-emerald-600 hover:underline">ProofEdge</a> — 
+                    social proof widgets that boost conversions.
+                </p>
+                <div class="flex flex-wrap items-center justify-center gap-4">
+                    <a 
+                        href="/blogs" 
+                        class="bg-zinc-900 text-white px-6 py-3 rounded-full font-medium hover:bg-zinc-800 transition-colors"
+                    >
+                        Read My Blog
+                    </a>
+                    <a 
+                        href="/contact" 
+                        class="bg-zinc-100 text-zinc-900 px-6 py-3 rounded-full font-medium hover:bg-zinc-200 transition-colors"
+                    >
+                        Get in Touch
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Latest Posts Section -->
+        <section class="py-20 px-6 bg-white">
+            <div class="container mx-auto max-w-5xl">
+                <div class="flex items-center justify-between mb-10">
+                    <div>
+                        <p class="text-emerald-600 font-medium mb-1">From the Blog</p>
+                        <h2 class="text-3xl font-bold text-zinc-900">Latest Posts</h2>
+                    </div>
+                    <a 
+                        href="/blogs" 
+                        class="text-zinc-600 hover:text-emerald-600 transition-colors font-medium"
+                    >
+                        View All →
+                    </a>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    {latestPosts.map((post) => (
+                        <a 
+                            href={`/blogs/${post.slug}`}
+                            class="group bg-zinc-50 rounded-xl overflow-hidden hover:shadow-lg transition-all hover-lift"
+                        >
+                            {post.data.image && (
+                                <div class="aspect-[16/10] overflow-hidden">
+                                    <img 
+                                        src={post.data.image} 
+                                        alt={post.data.title}
+                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    />
+                                </div>
+                            )}
+                            <div class="p-5">
+                                <span class="text-xs text-zinc-500 font-medium">
+                                    {post.data.category}
+                                </span>
+                                <h3 class="text-lg font-bold text-zinc-900 mt-1 line-clamp-2 group-hover:text-emerald-600 transition-colors">
+                                    {post.data.title}
+                                </h3>
+                            </div>
+                        </a>
+                    ))}
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section class="py-20 px-6">
+            <div class="container mx-auto max-w-4xl text-center">
+                <p class="text-emerald-600 font-medium mb-2">What I Do</p>
+                <h2 class="text-3xl font-bold text-zinc-900 mb-12">Tech Stack</h2>
+                
+                <div class="flex flex-wrap justify-center gap-4">
+                    {['React', 'Node.js', 'TypeScript', 'PostgreSQL', 'Tailwind CSS', 'Vite', 'Vercel', 'Railway'].map((skill) => (
+                        <span class="bg-zinc-100 text-zinc-700 px-4 py-2 rounded-full font-medium">
+                            {skill}
+                        </span>
+                    ))}
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <Footer />
+</BaseLayout>
