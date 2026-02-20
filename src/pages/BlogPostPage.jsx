@@ -1,4 +1,4 @@
-import { useParams, Link, useLocation } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -10,7 +10,6 @@ import { getPostBySlug, getAllPosts } from '../utils/blogLoader';
 
 const BlogPostPage = () => {
     const { slug } = useParams();
-    const location = useLocation();
     const post = getPostBySlug(slug);
     const allPosts = getAllPosts();
 
@@ -85,12 +84,9 @@ const BlogPostPage = () => {
                     {/* Header */}
                     <header className="blog-post__header">
                         <div className="blog-post__meta">
-                            <Link 
-                                to={`/blogs?category=${encodeURIComponent(post.category)}`}
-                                className="blog-post__category blog-post__category--link"
-                            >
+                            <span className="blog-post__category">
                                 <Tag size={14} /> {post.category}
-                            </Link>
+                            </span>
                             <span className="blog-post__date">
                                 <Calendar size={14} /> {new Date(post.date).toLocaleDateString('en-US', {
                                     year: 'numeric',
