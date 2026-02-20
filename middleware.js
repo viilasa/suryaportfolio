@@ -66,10 +66,10 @@ const blogPosts = {
     'vibe-coders-make-money': {
         title: "Why 99% of Vibe Coders Will Never Make a Dollar (And What the 1% Do Differently)",
         description: "Everyone's building. Nobody's selling. The vibe coding wave made building trivially easy — and that's exactly the problem. Here's what separates the 1% who actually make money from the 99% who don't.",
-        image: 'https://res.cloudinary.com/ddhhlkyut/image/upload/v1769621614/penguin_jlljzc.png',
+        image: 'https://res.cloudinary.com/ddhhlkyut/image/upload/v1771536074/edwards_ol6rn4.png',
         date: '2026-02-20',
         category: 'Founder Mindset',
-        readTime: '12 min read',
+        readTime: '6 min read',
         keywords: 'vibe coding, AI coding, make money coding, indie hacker, solopreneur, distribution, building products, AI tools, cursor AI, selling software, startup advice'
     }
 };
