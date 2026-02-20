@@ -89,22 +89,9 @@ function generateOGPage(post) {
     }
     </script>
     
-    <!-- SPA redirect script -->
-    <script>
-        // Redirect browsers to the SPA, but crawlers get the meta tags above
-        (function() {
-            var defined = 'onload' in window;
-            if (defined) {
-                // Check if it's a real browser (not a crawler)
-                var ua = navigator.userAgent.toLowerCase();
-                var isCrawler = /bot|crawl|spider|facebook|twitter|linkedin|slack|discord|telegram|whatsapp/i.test(ua);
-                if (!isCrawler) {
-                    // Load the SPA
-                    window.location.replace('${fullUrl}');
-                }
-            }
-        })();
-    </script>
+    <!-- Redirect all browsers to SPA (crawlers don't execute JS) -->
+    <script>window.location.replace('${fullUrl}');</script>
+    <noscript><meta http-equiv="refresh" content="0;url=${fullUrl}"></noscript>
 </head>
 <body>
     <article>
