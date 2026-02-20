@@ -1,0 +1,73 @@
+{
+    "pageTitle": "Portfolios",
+    "pageSubtitle": "Work & Projects",
+    "description": "A showcase of projects I've built, experiments I've run, and things I'm currently working on.",
+    "featured": {
+        "title": "ProofEdge",
+        "status": "Active",
+        "description": "Social proof solution for websites. Currently focusing on integrations and sales.",
+        "tags": [
+            "SaaS",
+            "React",
+            "Node.js"
+        ],
+        "link": "https://www.proofedge.io/",
+        "logo": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1765406050/Proofedge6_dxarbe.svg"
+    },
+    "projects": [
+        {
+            "title": "TheaterOrStream",
+            "date": "Sept 2023",
+            "status": "Completed",
+            "description": "Personalized movie recommendations to save decision time.",
+            "tags": [
+                "AI",
+                "Recommendations"
+            ],
+            "link": "https://www.theaterorstream.com/"
+        },
+        {
+            "title": "NovaNews",
+            "date": "Dec 2025",
+            "status": "Active",
+            "description": "A modern news aggregator with AI-powered summaries and custom topics.",
+            "tags": [
+                "News",
+                "AI",
+                "React"
+            ],
+            "link": "#"
+        }
+    ],
+    "clientWorks": [
+        {
+            "title": "Abhijit Fitness",
+            "category": "Gym & Fitness",
+            "description": "Professional fitness website for a gym business.",
+            "link": "https://abhijitfitness.com/",
+            "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1740478053/30days_ntuivv.png"
+        },
+        {
+            "title": "Vision Media House",
+            "category": "Media Agency",
+            "description": "Creative media production company website.",
+            "link": "http://visionmediahouse.in/",
+            "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1765544329/Untitled_design_8_bbq2zg.png"
+        },
+        {
+            "title": "We Find Homes Goa",
+            "category": "Real Estate",
+            "description": "Real estate property finder for Goa region.",
+            "link": "https://wefindhomesgoa.com/",
+            "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1740245015/Favicon_jgxije.svg"
+        },
+        {
+            "title": "SkyGlow",
+            "category": "Distribution Platform",
+            "description": "Distribution platform for Detergent soap.",
+            "link": "https://skyglow.netlify.app/",
+            "image": "https://res.cloudinary.com/ddhhlkyut/image/upload/v1739957955/Untitled_design_4_nmqgjq.svg"
+        }
+    ]
+
+}
