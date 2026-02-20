@@ -43,6 +43,10 @@
     ],
     "rewrites": [
         {
+            "source": "/og/:slug",
+            "destination": "/og/:slug.html"
+        },
+        {
             "source": "/(.*)",
             "destination": "/index.html"
         }

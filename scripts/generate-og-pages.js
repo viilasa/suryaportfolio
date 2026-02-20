@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 const SITE_URL = 'https://surya.viilasa.com';
 const CONTENT_DIR = path.join(__dirname, '../content/blogs');
-const DIST_DIR = path.join(__dirname, '../dist/blogs');
+const DIST_DIR = path.join(__dirname, '../dist/og');
 
 // Read all markdown files and extract frontmatter
 function getAllPosts() {

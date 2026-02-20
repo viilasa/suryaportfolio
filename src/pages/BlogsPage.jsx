@@ -124,18 +124,22 @@ const BlogsPage = () => {
     const categories = getCategories();
     const [activeCategory, setActiveCategory] = useState('All');
 
-    // Get top 3 latest posts for hero section (always unfiltered)
-    const latestPosts = allPosts.slice(0, 3);
+    // Filter all posts by category
+    const filteredAllPosts = activeCategory === 'All'
+        ? allPosts
+        : allPosts.filter(post => post.category === activeCategory);
+
+    // For "All" view: show hero section with top 3, grid with rest
+    // For filtered view: show all filtered posts in grid (no hero)
+    const showHeroSection = activeCategory === 'All' && allPosts.length > 0;
+    const latestPosts = showHeroSection ? allPosts.slice(0, 3) : [];
     const mainHeroPost = latestPosts[0];
     const secondaryPosts = latestPosts.slice(1, 3);
 
-    // Remaining posts for grid (excluding top 3)
-    const remainingPosts = allPosts.slice(3);
-
-    // Filter only the grid posts by category
-    const filteredPosts = activeCategory === 'All'
-        ? remainingPosts
-        : remainingPosts.filter(post => post.category === activeCategory);
+    // Grid posts: remaining posts for "All", or all filtered posts for category
+    const gridPosts = activeCategory === 'All'
+        ? allPosts.slice(3)
+        : filteredAllPosts;
 
     return (
         <div className="app">
@@ -166,8 +170,32 @@ const BlogsPage = () => {
                         </p>
                     </div>
 
-                    {/* Hero Section - Top 3 Latest Posts */}
-                    {latestPosts.length > 0 && (
+                    {/* Category Filters - Always visible */}
+                    <div className="blogs-section-header">
+                        <h2 className="blogs-section-title">
+                            {activeCategory === 'All' ? 'All Articles' : activeCategory}
+                        </h2>
+                        <div className="blogs-filters">
+                            <button
+                                className={`blogs-filter ${activeCategory === 'All' ? 'blogs-filter--active' : ''}`}
+                                onClick={() => setActiveCategory('All')}
+                            >
+                                All
+                            </button>
+                            {categories.map(category => (
+                                <button
+                                    key={category}
+                                    className={`blogs-filter ${activeCategory === category ? 'blogs-filter--active' : ''}`}
+                                    onClick={() => setActiveCategory(category)}
+                                >
+                                    {category}
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Hero Section - Only shown when "All" is selected */}
+                    {showHeroSection && (
                         <section className="blogs-hero">
                             <div className="blogs-hero__grid">
                                 {mainHeroPost && <HeroCard post={mainHeroPost} />}
@@ -180,49 +208,16 @@ const BlogsPage = () => {
                         </section>
                     )}
 
-                    {/* All Posts Section */}
-                    {filteredPosts.length > 0 && (
-                        <>
-                            <div className="blogs-section-header">
-                                <h2 className="blogs-section-title">All Articles</h2>
-                                <div className="blogs-filters">
-                                    <button
-                                        className={`blogs-filter ${activeCategory === 'All' ? 'blogs-filter--active' : ''}`}
-                                        onClick={() => setActiveCategory('All')}
-                                    >
-                                        All
-                                    </button>
-                                    {categories.map(category => (
-                                        <button
-                                            key={category}
-                                            className={`blogs-filter ${activeCategory === category ? 'blogs-filter--active' : ''}`}
-                                            onClick={() => setActiveCategory(category)}
-                                        >
-                                            {category}
-                                        </button>
-                                    ))}
-                                </div>
-                            </div>
-
-                            {/* Posts Grid */}
-                            <div className="blogs-grid">
-                                {filteredPosts.map((post, idx) => (
-                                    <BlogCard key={post.slug} post={post} index={idx} />
-                                ))}
-                            </div>
-
-                            {filteredPosts.length === 0 && (
-                                <div className="blogs-empty">
-                                    <p>No posts in this category yet.</p>
-                                </div>
-                            )}
-                        </>
-                    )}
-
-                    {/* If only hero posts exist and no remaining posts */}
-                    {filteredPosts.length === 0 && latestPosts.length > 0 && (
-                        <div className="blogs-more-coming">
-                            <p>More articles coming soon...</p>
+                    {/* Posts Grid */}
+                    {gridPosts.length > 0 ? (
+                        <div className="blogs-grid">
+                            {gridPosts.map((post, idx) => (
+                                <BlogCard key={post.slug} post={post} index={idx} />
+                            ))}
+                        </div>
+                    ) : (
+                        <div className="blogs-empty">
+                            <p>No posts in this category yet.</p>
                         </div>
                     )}
                 </div>
