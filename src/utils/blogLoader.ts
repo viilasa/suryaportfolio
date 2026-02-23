@@ -22,6 +22,7 @@ interface BlogPageEntrySkeleton {
     featured: EntryFieldTypes.Boolean;
     author: EntryFieldTypes.Text;
     keywords: EntryFieldTypes.Text;
+    meta: EntryFieldTypes.Text;   // SEO meta description
     body: EntryFieldTypes.RichText;
   };
 }
@@ -71,6 +72,7 @@ function mapEntry(item: {
     featured?: boolean;
     author?: string;
     keywords?: string;
+    meta?: string;        // "meta" in Contentful — SEO-only description
     body?: Document;
   };
 
@@ -93,6 +95,7 @@ function mapEntry(item: {
     category,
     tags,
     excerpt: f.desc || '',
+    metaDescription: f.meta || undefined,
     image: getImageUrl(f.image),
     readTime: f.readTime || '',
     featured: f.featured || false,

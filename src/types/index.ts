@@ -10,6 +10,7 @@ export interface BlogPost {
   category: string;   // primary display category (first tag)
   tags: string[];     // all tags from Contentful metadata
   excerpt: string;
+  metaDescription?: string;  // SEO-only meta description (Contentful "meta" field)
   image: string;
   readTime: string;
   featured?: boolean;

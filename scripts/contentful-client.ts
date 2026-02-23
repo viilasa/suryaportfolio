@@ -24,6 +24,7 @@ interface BlogPageEntrySkeleton {
     featured: EntryFieldTypes.Boolean;
     author: EntryFieldTypes.Text;
     keywords: EntryFieldTypes.Text;
+    meta: EntryFieldTypes.Text;
     body: EntryFieldTypes.RichText;
   };
 }
@@ -87,6 +88,7 @@ export async function fetchAllPosts(): Promise<ScriptBlogPost[]> {
       featured?: boolean;
       author?: string;
       keywords?: string;
+      meta?: string;
       body?: Document;
     };
 

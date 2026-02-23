@@ -123,7 +123,7 @@ const BlogPostPage = () => {
         <div className="app">
             <SEO
                 title={post.title}
-                description={post.excerpt}
+                description={post.metaDescription || post.excerpt}
                 image={post.image}
                 url={`/blogs/${post.slug}`}
                 type="article"
