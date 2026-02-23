@@ -7,15 +7,12 @@
             "id": "movies",
             "name": "Movies",
             "iconName": "Film",
-            "letterboxdUsername": "WIZARDLORDE",
-            "letterboxdListUrl": "https://boxd.it/Gopnw",
-            "letterboxdProfileUrl": "https://boxd.it/aAKth",
             "items": [
                 {
-                    "title": "Interstellar",
+                    "title": "Inception",
                     "subtitle": "Christopher Nolan",
-                    "note": "Mind-bending space epic",
-                    "image": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+                    "note": "Mind-bending Mind epic",
+                    "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg"
                 },
                 {
                     "title": "The Social Network",
@@ -30,16 +27,16 @@
                     "image": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
                 },
                 {
-                    "title": "The Pursuit of Happyness",
-                    "subtitle": "Gabriele Muccino",
-                    "note": "Never give up",
-                    "image": "https://image.tmdb.org/t/p/w500/iSgRNwCuKVflyF7hjLvGBsJjXcB.jpg"
+                    "title": "Steve Jobs",
+                    "subtitle": " Joshua Michael Stern",
+                    "note": "Dent in Universe",
+                    "image": "https://m.media-amazon.com/images/M/MV5BMTUwMzAyMjgyNV5BMl5BanBnXkFtZTgwOTU3ODUzNjE@._V1_FMjpg_UX1000_.jpg"
                 },
                 {
                     "title": "Whiplash",
                     "subtitle": "Damien Chazelle",
                     "note": "The cost of greatness",
-                    "image": "https://image.tmdb.org/t/p/w500/oPxnRhyAIzJCLfwz1WaRobPkulT.jpg"
+                    "image": "https://m.media-amazon.com/images/M/MV5BMDFjOWFkYzktYzhhMC00NmYyLTkwY2EtYjViMDhmNzg0OGFkXkEyXkFqcGc@._V1_.jpg"
                 }
             ]
         },
@@ -70,13 +67,13 @@
                     "title": "The Tim Ferriss Show",
                     "subtitle": "Tim Ferriss",
                     "note": "World-class performers",
-                    "image": "https://i.ytimg.com/pl_c/PLuu6fDad2eJyWPm9dQfuorm2uuYHBZDCB/studio_square_thumbnail.jpg?sqp=CK-A-8oG-oaymwEICOADEOADSFqi85f_AwYItpfqogY=&rs=AOn4CLDuL5sii9yxRUQydLn1WH_oimnR7w"
+                    "image": "https://i.scdn.co/image/ab6765630000ba8aaebf288621ea86c79d44f12f"
                 },
                 {
                     "title": "Acquired",
                     "subtitle": "Ben & David",
                     "note": "Business stories & strategies",
-                    "image": "https://media.licdn.com/dms/image/v2/D560BAQFUq8Jh0EYYjQ/company-logo_200_200/company-logo_200_200/0/1681224157884/acquired_fm_logo?e=1769644800&v=beta&t=A8vCte-XwTW180LpbDR5hbOKZmOrIi8XdqxNyX0E4pI"
+                    "image": "https://yt3.googleusercontent.com/tPu92QukXurzmjPBwnY1AnuWKxoJCMEhUdTKNiz8oO9fzqVe6B9ZnlfGt_LXaWUX6dTmzc3KE6Q=s900-c-k-c0x00ffffff-no-rj"
                 }
             ]
         },
@@ -135,10 +132,10 @@
                     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630663027i/18050143.jpg"
                 },
                 {
-                    "title": "Atomic Habits",
-                    "subtitle": "James Clear",
-                    "note": "Systems over goals",
-                    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg"
+                    "title": "Almanack of Naval Ravikant",
+                    "subtitle": "Eric Jorgenson",
+                    "note": "Getting Rich Is Not Just About Luck",
+                    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1598011736i/54898389.jpg"
                 },
                 {
                     "title": "Deep Work",
@@ -178,10 +175,10 @@
                     "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png"
                 },
                 {
-                    "title": "Linear",
-                    "subtitle": "Project Management",
-                    "note": "Clean issue tracking",
-                    "image": "https://asset.brandfetch.io/iduDa181eM/idYYbqOlKi.png"
+                    "title": "Windsurfer AI",
+                    "subtitle": "AI Code IDE",
+                    "note": "AI tool for coding ",
+                    "image": "https://exafunction.github.io/public/brand/windsurf-black-symbol.png"
                 },
                 {
                     "title": "Vercel",

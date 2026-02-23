@@ -5,7 +5,7 @@
         <link>https://surya.viilasa.com/blogs</link>
         <description>Ideas, lessons, and stories from an indie hacker building SaaS products. Insights on indie hacking, SaaS, startup mindset, and web development.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 19 Feb 2026 21:11:52 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Feb 2026 20:30:05 GMT</lastBuildDate>
         <atom:link href="https://surya.viilasa.com/rss.xml" rel="self" type="application/rss+xml"/>
         <managingEditor>inbox.suryanarayan@gmail.com (Surya Narayan)</managingEditor>
         <webMaster>inbox.suryanarayan@gmail.com (Surya Narayan)</webMaster>
@@ -18,230 +18,80 @@
         </image>
         <item>
             <title><![CDATA[Why 99% of Vibe Coders Will Never Make a Dollar (And What the 1% Do Differently)]]></title>
-            <link>https://surya.viilasa.com/blogs/vibe-coders-make-money</link>
-            <guid isPermaLink="true">https://surya.viilasa.com/blogs/vibe-coders-make-money</guid>
+            <link>https://surya.viilasa.com/blogs/why-99-of-vibe-coders-will-never-make-a-dollar-and-what-the-1-do-differently</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/why-99-of-vibe-coders-will-never-make-a-dollar-and-what-the-1-do-differently</guid>
             <description><![CDATA[Everyone's building. Nobody's selling. The vibe coding wave made building trivially easy — and that's exactly the problem. Here's what separates the 1% who actually make money from the 99% who don't.]]></description>
-            <content:encoded><![CDATA[
-Everyone's building. Nobody's selling.
-
-That's the uncomfortable reality hiding inside every "I shipped my app in a weekend!" tweet you've ever liked.
-
-The vibe coding wave promised something intoxicating: an era where *anyone* could build a product. No CS degree. No 10,000 hours of grinding LeetCode. Just you, your ideas, and an AI that turns English into working software.
-
-The promise delivered.
-
-Building is now trivially easy.
-
-And that's exactly the problem.
-
----
-
-## The Illusion That's Kee...]]></content:encoded>
+            <content:encoded><![CDATA[Everyone's building. Nobody's selling.That's the uncomfortable reality hiding inside every "I shipped my app in a weekend!" tweet you've ever liked.The vibe coding wave promised something intoxicating: an era where anyone could build a product. No CS degree. No 10,000 hours of grinding LeetCode. Just you, your ideas, and an AI that turns English into working software.The promise delivered.Building is now trivially easy.And that's exactly the problem. The Illusion That's Keeping You Broke Here's ...]]></content:encoded>
             <dc:creator>Surya Narayan</dc:creator>
             <category>Founder Mindset</category>
-            <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
-            <enclosure url="https://res.cloudinary.com/ddhhlkyut/image/upload/v1769621614/penguin_jlljzc.png" type="image/jpeg"/>
+            <pubDate>Sun, 22 Feb 2026 21:24:01 GMT</pubDate>
+            <enclosure url="https://images.ctfassets.net/k4p3htm911ao/2MuALslzYOnNabn2JhC4TK/f873c2cba988042142989a4a6ab7d14a/edwards_ol6rn4.png" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[What Are Social Proof Widgets? The Complete Guide to Boosting Website Conversions in 2026]]></title>
-            <link>https://surya.viilasa.com/blogs/social-proof-widgets-complete-guide</link>
-            <guid isPermaLink="true">https://surya.viilasa.com/blogs/social-proof-widgets-complete-guide</guid>
+            <link>https://surya.viilasa.com/blogs/what-are-social-proof-widgets-the-complete-guide-to-boosting-website</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/what-are-social-proof-widgets-the-complete-guide-to-boosting-website</guid>
             <description><![CDATA[Learn what social proof widgets are, why they matter for your website, the 7 types that drive conversions, and how to set them up the right way. Includes stats, examples, and tool recommendations.]]></description>
-            <content:encoded><![CDATA[
-# What Are Social Proof Widgets? The Complete Guide to Boosting Website Conversions in 2025
-
-## Table of Contents
-1. [What Are Social Proof Widgets?](#what-are-social-proof-widgets)
-2. [Why Social Proof Matters: The Psychology Behind It](#why-social-proof-matters)
-3. [The Stats That Prove It Works](#the-stats-that-prove-it-works)
-4. [7 Types of Social Proof Widgets for Websites](#7-types-of-social-proof-widgets)
-5. [Where to Place Social Proof Widgets on Your Website](#where-to-place-social-pro...]]></content:encoded>
+            <content:encoded><![CDATA[What Are Social Proof Widgets? The Complete Guide to Boosting Website Conversions in 2025 Table of Contents What Are Social Proof Widgets? Why Social Proof Matters: The Psychology Behind It The Stats That Prove It Works 7 Types of Social Proof Widgets for Websites Where to Place Social Proof Widgets on Your Website How to Choose the Right Social Proof Widget Tool How to Set Up Social Proof Widgets (Step-by-Step) Common Mistakes to Avoid Frequently Asked Questions What Are Social Proof Widgets? S...]]></content:encoded>
             <dc:creator>Surya Narayan</dc:creator>
-            <category>Growth</category>
-            <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
-            <enclosure url="https://res.cloudinary.com/ddhhlkyut/image/upload/v1771441415/social_prof_widget_h2s7ap.png" type="image/jpeg"/>
+            <category>Product</category>
+            <pubDate>Sun, 22 Feb 2026 21:12:42 GMT</pubDate>
+            <enclosure url="https://images.ctfassets.net/k4p3htm911ao/24dHTXYAVkkSEWcKD3Uhiz/d6858ba5cf92ab32222dce178aa510db/social_prof_widget_h2s7ap.png" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Your Website Is Lying to Every Visitor Who Lands on It]]></title>
-            <link>https://surya.viilasa.com/blogs/your-website-is-lying-to-every-visitor</link>
-            <guid isPermaLink="true">https://surya.viilasa.com/blogs/your-website-is-lying-to-every-visitor</guid>
+            <link>https://surya.viilasa.com/blogs/your-website-is-lying-to-every-visitor-who-lands-on-it</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/your-website-is-lying-to-every-visitor-who-lands-on-it</guid>
             <description><![CDATA[Most websites are graveyards. People show up, look around for 8 seconds, and leave. The uncomfortable truth? Your visitors don't trust you — not because your product is bad, but because your site doesn't speak the language of social proof.]]></description>
-            <content:encoded><![CDATA[
-# Your Website Is Lying to Every Visitor Who Lands on It
-
-Most websites are graveyards.
-
-People show up, look around for 8 seconds, and leave — never to return.
-
-You've spent money on ads. You've obsessed over your headline. You've A/B tested your CTA button color three times this month.
-
-And still, nothing.
-
-Here's the uncomfortable truth: **your visitors don't trust you.**
-
-Not because your product is bad. Not because your copy isn't sharp enough. But because human beings are wired — at a neu...]]></content:encoded>
+            <content:encoded><![CDATA[Your Website Is Lying to Every Visitor Who Lands on It Most websites are graveyards. People show up, look around for 8 seconds, and leave — never to return. You've spent money on ads. You've obsessed over your headline. You've A/B tested your CTA button color three times this month. And still, nothing. Here's the uncomfortable truth: your visitors don't trust you. Not because your product is bad. Not because your copy isn't sharp enough. But because human beings are wired — at a neurological lev...]]></content:encoded>
             <dc:creator>Surya Narayan</dc:creator>
-            <category>Growth</category>
-            <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
-            <enclosure url="https://res.cloudinary.com/ddhhlkyut/image/upload/v1771440557/laptop_nvrlsb.png" type="image/jpeg"/>
+            <category>Founder Mindset</category>
+            <pubDate>Sun, 22 Feb 2026 21:09:46 GMT</pubDate>
+            <enclosure url="https://images.ctfassets.net/k4p3htm911ao/7bGnm2gm1wMHCFcLRLF8RM/534d24690b689e28654f844e46b60673/laptop_nvrlsb.png" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[You're Not Early. You're Just Hiding.]]></title>
             <link>https://surya.viilasa.com/blogs/youre-not-early-youre-just-hiding</link>
             <guid isPermaLink="true">https://surya.viilasa.com/blogs/youre-not-early-youre-just-hiding</guid>
             <description><![CDATA[Most founders aren't early. They're scared. And 'early' becomes the safest excuse to stay invisible while momentum slowly dies.]]></description>
-            <content:encoded><![CDATA[
-# You're Not Early. You're Just Hiding.
-
-*"I'm still early."*
-
-That sentence sounds harmless.
-
-Even smart.
-
-Founders say it with confidence—like they're playing the long game.
-
-But look closer.
-
-Six months in. A finished product. A clean UI. A working checkout.
-
-**And zero users.**
-
-That's not early.
-
-**That's avoidance.**
-
----
-
-## The Comfortable Lie
-
-"Early" feels responsible. Patient. Strategic.
-
-It sounds better than the truth.
-
-Because the truth is uncomfortabl...]]></content:encoded>
+            <content:encoded><![CDATA[You're Not Early. You're Just Hiding. "I'm still early." That sentence sounds harmless. Even smart. Founders say it with confidence—like they're playing the long game. But look closer. Six months in. A finished product. A clean UI. A working checkout. And zero users. That's not early. That's avoidance. The Comfortable Lie "Early" feels responsible. Patient. Strategic. It sounds better than the truth. Because the truth is uncomfortable: Nothing is stopping you from selling. Except you. Early beco...]]></content:encoded>
             <dc:creator>Surya Narayan</dc:creator>
             <category>Founder Mindset</category>
-            <pubDate>Wed, 28 Jan 2026 00:00:00 GMT</pubDate>
-            <enclosure url="https://res.cloudinary.com/ddhhlkyut/image/upload/v1769621614/penguin_jlljzc.png" type="image/jpeg"/>
+            <pubDate>Sun, 22 Feb 2026 21:08:21 GMT</pubDate>
+            <enclosure url="https://images.ctfassets.net/k4p3htm911ao/7g94AWDbYanuGjyf70NT2O/0d526bfb6b57edf4016321ea3757a0e8/penguin_jlljzc.png" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Your SaaS Is Bloated Because You’re Afraid to Say No]]></title>
-            <link>https://surya.viilasa.com/blogs/saas-bloated-afraid-to-say-no</link>
-            <guid isPermaLink="true">https://surya.viilasa.com/blogs/saas-bloated-afraid-to-say-no</guid>
+            <link>https://surya.viilasa.com/blogs/your-saas-is-bloated-because-youre-afraid-to-say-no</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/your-saas-is-bloated-because-youre-afraid-to-say-no</guid>
             <description><![CDATA[Discover why SaaS feature bloat drives user churn and how 'purposeful subtraction' can save your product. Learn to overcome the founder fear that leads to complex, confusing software.]]></description>
-            <content:encoded><![CDATA[
-## The Real Pain of SaaS Feature Bloat
-
-I didn’t hate SaaS tools because they were *bad*.
-
-I hated them because they **stole my time**.
-
-Not in small bites. Not in “oops I clicked something.” But in big, silent drains caused by **feature bloat**.
-
-I paid for “premium.” Upgraded. Subscribed. Committed.
-
-I got:
-
-- Fancy templates
-- Hundreds of widgets
-- Animations that look cool on sales pages
-
-But when it came down to *actually using it*?
-
-I used none of them.
-
-I’d open the ...]]></content:encoded>
+            <content:encoded><![CDATA[The Real Pain of SaaS Feature Bloat I didn’t hate SaaS tools because they were bad. I hated them because they stole my time. Not in small bites. Not in “oops I clicked something.” But in big, silent drains caused by feature bloat. I paid for “premium.” Upgraded. Subscribed. Committed. I got: Fancy templates Hundreds of widgets Animations that look cool on sales pages But when it came down to actually using it? I used none of them. I’d open the tool. Scroll. Hover. Click. Close the tab. Not confu...]]></content:encoded>
             <dc:creator>Surya Narayan</dc:creator>
-            <category>Product</category>
-            <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
-            <enclosure url="https://res.cloudinary.com/ddhhlkyut/image/upload/v1768686551/saas_is_bloated_lxysfk.png" type="image/jpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Building ProofEdge: From Idea to Product]]></title>
-            <link>https://surya.viilasa.com/blogs/building-proofedge</link>
-            <guid isPermaLink="true">https://surya.viilasa.com/blogs/building-proofedge</guid>
-            <description><![CDATA[The journey of building a social proof SaaS from scratch, including the challenges faced and lessons learned along the way.]]></description>
-            <content:encoded><![CDATA[
-# Building ProofEdge: From Idea to Product
-
-The journey started with a simple observation: **every successful website uses social proof**, but setting it up is unnecessarily complicated.
-
-## The Problem
-
-I noticed that most social proof solutions were either:
-- Too expensive for indie hackers
-- Too complex to integrate
-- Looking outdated and spammy
-
-## The Solution
-
-ProofEdge was born out of this frustration. I wanted to create something that was:
-
-1. **Simple to integrate** - Just one line of ...]]></content:encoded>
-            <dc:creator>Surya Narayan</dc:creator>
-            <category>Building</category>
-            <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
-            <enclosure url="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800" type="image/jpeg"/>
+            <category>General</category>
+            <pubDate>Sun, 22 Feb 2026 21:05:36 GMT</pubDate>
+            <enclosure url="https://images.ctfassets.net/k4p3htm911ao/3JLR1lDUURRyOCM2p2zDzw/6002d13b9e17e8573707bfc576536a26/saas_is_bloated_lxysfk.png" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[5 Lessons from My First Year as an Indie Hacker]]></title>
-            <link>https://surya.viilasa.com/blogs/indie-hacker-lessons</link>
-            <guid isPermaLink="true">https://surya.viilasa.com/blogs/indie-hacker-lessons</guid>
+            <link>https://surya.viilasa.com/blogs/5-lessons-from-my-first-year-as-an-indie-hacker</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/5-lessons-from-my-first-year-as-an-indie-hacker</guid>
             <description><![CDATA[Reflecting on a year of building products, making mistakes, and learning what really matters.]]></description>
-            <content:encoded><![CDATA[
-# 5 Lessons from My First Year as an Indie Hacker
-
-After a year of building products independently, here are the most valuable lessons I've learned.
-
-## 1. Ideas Are Cheap, Execution Is Everything
-
-Everyone has ideas. The difference between dreamers and builders is **execution**.
-
-I used to spend weeks perfecting ideas in my head. Now I validate them in days.
-
-## 2. Revenue > Users
-
-Early on, I was obsessed with user counts. But users who don't pay are just numbers.
-
-> "If you're not embarrasse...]]></content:encoded>
+            <content:encoded><![CDATA[5 Lessons from My First Year as an Indie Hacker After a year of building products independently, here are the most valuable lessons I've learned. 1. Ideas Are Cheap, Execution Is Everything Everyone has ideas. The difference between dreamers and builders is execution. I used to spend weeks perfecting ideas in my head. Now I validate them in days. 2. Revenue > Users Early on, I was obsessed with user counts. But users who don't pay are just numbers. "If you're not embarrassed by the first version...]]></content:encoded>
             <dc:creator>Surya Narayan</dc:creator>
-            <category>Lessons</category>
-            <pubDate>Mon, 05 Jan 2026 00:00:00 GMT</pubDate>
-            <enclosure url="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800" type="image/jpeg"/>
+            <category>General</category>
+            <pubDate>Sun, 22 Feb 2026 21:02:18 GMT</pubDate>
+            <enclosure url="https://images.ctfassets.net/k4p3htm911ao/3Lxbt27blAchCwwmtklVzA/5d441eb0f668b0278403be5ede3661d6/photo-1499750310107-5fef28a66643" type="image/jpeg"/>
         </item>
         <item>
-            <title><![CDATA[Why I Chose React Over Other Frameworks]]></title>
-            <link>https://surya.viilasa.com/blogs/why-react</link>
-            <guid isPermaLink="true">https://surya.viilasa.com/blogs/why-react</guid>
-            <description><![CDATA[A deep dive into why React remains my frontend framework of choice in 2026.]]></description>
-            <content:encoded><![CDATA[
-# Why I Chose React Over Other Frameworks
-
-With so many frontend frameworks available today, here's why I still choose React.
-
-## The Contenders
-
-I've tried them all:
-- **Vue** - Great developer experience
-- **Svelte** - Innovative approach
-- **Angular** - Enterprise-ready
-- **React** - The ecosystem champion
-
-## Why React Wins (For Me)
-
-### 1. The Ecosystem
-
-React's ecosystem is unmatched:
-
-```bash
-npm install react-router-dom  # Routing
-npm install zustand           # State management
-npm ins...]]></content:encoded>
+            <title><![CDATA[Building ProofEdge: From Idea to Product]]></title>
+            <link>https://surya.viilasa.com/blogs/building-proofedge-from-idea-to-product</link>
+            <guid isPermaLink="true">https://surya.viilasa.com/blogs/building-proofedge-from-idea-to-product</guid>
+            <description><![CDATA[The journey of building a social proof SaaS from scratch, including the challenges faced and lessons learned along the way.]]></description>
+            <content:encoded><![CDATA[Building ProofEdge: From Idea to Product The journey started with a simple observation: every successful website uses social proof, but setting it up is unnecessarily complicated. The Problem I noticed that most social proof solutions were either: Too expensive for indie hackers Too complex to integrate Looking outdated and spammy The Solution ProofEdge was born out of this frustration. I wanted to create something that was: Simple to integrate   - Just one line of code Beautiful by default   - ...]]></content:encoded>
             <dc:creator>Surya Narayan</dc:creator>
-            <category>Tech</category>
-            <pubDate>Sat, 20 Dec 2025 00:00:00 GMT</pubDate>
-            <enclosure url="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800" type="image/jpeg"/>
+            <category>Product</category>
+            <pubDate>Sun, 22 Feb 2026 15:31:30 GMT</pubDate>
+            <enclosure url="https://images.ctfassets.net/k4p3htm911ao/jnsDHbLFtfnZ7COpTkgAI/b462a51c54b7cb87fa9ac72c4080d337/photo-1460925895917-afdab827c52f" type="image/jpeg"/>
         </item>
     </channel>
 </rss>

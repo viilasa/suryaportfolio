@@ -1,0 +1,107 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { fetchAllPosts } from './contentful-client';
+import type { ScriptBlogPost } from './contentful-client';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const SITE_URL = 'https://surya.viilasa.com';
+const DIST_DIR = path.join(__dirname, '../dist/og');
+
+// Generate HTML with OG tags for each blog post
+function generateOGPage(post: ScriptBlogPost): string {
+    const fullUrl = `${SITE_URL}/blogs/${post.slug}`;
+
+    return `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${post.title} | Surya Narayan</title>
+    <meta name="description" content="${post.excerpt}">
+    <meta name="keywords" content="${post.keywords}">
+    <meta name="author" content="Surya Narayan">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="${fullUrl}">
+    <meta property="og:title" content="${post.title}">
+    <meta property="og:description" content="${post.excerpt}">
+    <meta property="og:image" content="${post.image}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="${post.title}">
+    <meta property="og:site_name" content="Surya Narayan">
+    <meta property="og:locale" content="en_US">
+    <meta property="article:published_time" content="${post.date}">
+    <meta property="article:author" content="Surya Narayan">
+    <meta property="article:section" content="${post.category}">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@lrdsurya">
+    <meta name="twitter:creator" content="@lrdsurya">
+    <meta name="twitter:title" content="${post.title}">
+    <meta name="twitter:description" content="${post.excerpt}">
+    <meta name="twitter:image" content="${post.image}">
+    <meta name="twitter:image:alt" content="${post.title}">
+
+    <link rel="canonical" href="${fullUrl}">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "${post.title}",
+        "description": "${post.excerpt}",
+        "image": "${post.image}",
+        "url": "${fullUrl}",
+        "datePublished": "${post.date}",
+        "author": {
+            "@type": "Person",
+            "name": "Surya Narayan",
+            "url": "${SITE_URL}"
+        }
+    }
+    </script>
+
+    <!-- Redirect all browsers to SPA (crawlers don't execute JS) -->
+    <script>window.location.replace('${fullUrl}');</script>
+    <noscript><meta http-equiv="refresh" content="0;url=${fullUrl}"></noscript>
+</head>
+<body>
+    <article>
+        <h1>${post.title}</h1>
+        <p><strong>By Surya Narayan</strong> | ${post.date} | ${post.readTime || ''}</p>
+        <img src="${post.image}" alt="${post.title}" style="max-width:100%;">
+        <p>${post.excerpt}</p>
+        <p><a href="${fullUrl}">Read the full article →</a></p>
+    </article>
+</body>
+</html>`;
+}
+
+// Main
+async function main() {
+    const posts = await fetchAllPosts();
+
+    // Ensure dist/og directory exists
+    if (!fs.existsSync(DIST_DIR)) {
+        fs.mkdirSync(DIST_DIR, { recursive: true });
+    }
+
+    // Generate HTML for each post
+    posts.forEach(post => {
+        const html = generateOGPage(post);
+        const filePath = path.join(DIST_DIR, `${post.slug}.html`);
+        fs.writeFileSync(filePath, html);
+    });
+
+    console.log(`OG pages generated: ${posts.length} blog HTML files created in dist/og/`);
+}
+
+main().catch(console.error);

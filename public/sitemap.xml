@@ -4,78 +4,72 @@
         <loc>https://surya.viilasa.com/</loc>
         <changefreq>weekly</changefreq>
         <priority>1</priority>
-        <lastmod>2026-02-19</lastmod>
+        <lastmod>2026-02-23</lastmod>
     </url>
     <url>
         <loc>https://surya.viilasa.com/blogs</loc>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
-        <lastmod>2026-02-19</lastmod>
+        <lastmod>2026-02-23</lastmod>
     </url>
     <url>
         <loc>https://surya.viilasa.com/portfolios</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
-        <lastmod>2026-02-19</lastmod>
+        <lastmod>2026-02-23</lastmod>
     </url>
     <url>
         <loc>https://surya.viilasa.com/things-i-like</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2026-02-19</lastmod>
+        <lastmod>2026-02-23</lastmod>
     </url>
     <url>
         <loc>https://surya.viilasa.com/contact</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2026-02-19</lastmod>
+        <lastmod>2026-02-23</lastmod>
     </url>
     <url>
-        <loc>https://surya.viilasa.com/blogs/vibe-coders-make-money</loc>
+        <loc>https://surya.viilasa.com/blogs/why-99-of-vibe-coders-will-never-make-a-dollar-and-what-the-1-do-differently</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2026-02-20</lastmod>
+        <lastmod>2026-02-22</lastmod>
     </url>
     <url>
-        <loc>https://surya.viilasa.com/blogs/social-proof-widgets-complete-guide</loc>
+        <loc>https://surya.viilasa.com/blogs/what-are-social-proof-widgets-the-complete-guide-to-boosting-website</loc>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <lastmod>2026-02-19</lastmod>
+        <priority>0.7</priority>
+        <lastmod>2026-02-22</lastmod>
     </url>
     <url>
-        <loc>https://surya.viilasa.com/blogs/your-website-is-lying-to-every-visitor</loc>
+        <loc>https://surya.viilasa.com/blogs/your-website-is-lying-to-every-visitor-who-lands-on-it</loc>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <lastmod>2026-02-19</lastmod>
+        <priority>0.7</priority>
+        <lastmod>2026-02-22</lastmod>
     </url>
     <url>
         <loc>https://surya.viilasa.com/blogs/youre-not-early-youre-just-hiding</loc>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <lastmod>2026-01-28</lastmod>
+        <priority>0.7</priority>
+        <lastmod>2026-02-22</lastmod>
     </url>
     <url>
-        <loc>https://surya.viilasa.com/blogs/saas-bloated-afraid-to-say-no</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <lastmod>2026-01-18</lastmod>
-    </url>
-    <url>
-        <loc>https://surya.viilasa.com/blogs/building-proofedge</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <lastmod>2026-01-08</lastmod>
-    </url>
-    <url>
-        <loc>https://surya.viilasa.com/blogs/indie-hacker-lessons</loc>
+        <loc>https://surya.viilasa.com/blogs/your-saas-is-bloated-because-youre-afraid-to-say-no</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2026-01-05</lastmod>
+        <lastmod>2026-02-22</lastmod>
     </url>
     <url>
-        <loc>https://surya.viilasa.com/blogs/why-react</loc>
+        <loc>https://surya.viilasa.com/blogs/5-lessons-from-my-first-year-as-an-indie-hacker</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-12-20</lastmod>
+        <lastmod>2026-02-22</lastmod>
+    </url>
+    <url>
+        <loc>https://surya.viilasa.com/blogs/building-proofedge-from-idea-to-product</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <lastmod>2026-02-22</lastmod>
     </url>
 </urlset>
