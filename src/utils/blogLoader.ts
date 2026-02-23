@@ -105,16 +105,21 @@ function mapEntry(item: {
 export async function fetchAllPosts(): Promise<BlogPost[]> {
   if (cachedPosts) return cachedPosts;
 
-  const res = await client.getEntries<BlogPageEntrySkeleton>({
-    content_type: 'blogPage',
-    order: ['-sys.createdAt'],
-    limit: 100,
-  });
+  try {
+    const res = await client.getEntries<BlogPageEntrySkeleton>({
+      content_type: 'blogPage',
+      order: ['-sys.createdAt'],
+      limit: 100,
+    });
 
-  cachedPosts = res.items.map(mapEntry);
-  // Sort by date field (newest first) since API ordering uses sys.createdAt
-  cachedPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-  return cachedPosts;
+    cachedPosts = res.items.map(mapEntry);
+    // Sort by date field (newest first) since API ordering uses sys.createdAt
+    cachedPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    return cachedPosts;
+  } catch (err) {
+    console.error('Failed to fetch posts from Contentful:', err);
+    return [];
+  }
 }
 
 // Fetch a single post by slug
