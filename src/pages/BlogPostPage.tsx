@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { documentToPlainTextString } from '@contentful/rich-text-plain-text-renderer';
@@ -61,8 +61,11 @@ const richTextOptions = {
 
 const BlogPostPage = () => {
     const { slug } = useParams<{ slug: string }>();
-    const { post, loading } = usePostBySlug(slug || '');
-    const { posts: allPosts } = useAllPosts();
+    const [searchParams] = useSearchParams();
+    const isPreview = searchParams.get('preview') === 'true';
+
+    const { post, loading } = usePostBySlug(slug || '', isPreview);
+    const { posts: allPosts } = useAllPosts(isPreview);
 
     // Scroll to top when navigating to a new blog post
     useEffect(() => {
@@ -138,6 +141,12 @@ const BlogPostPage = () => {
                 faqItems={post.faqItems}
             />
             <Navbar />
+            {isPreview && (
+                <div className="preview-banner">
+                    <span className="preview-banner__dot" />
+                    Preview Mode — this post may not be published yet
+                </div>
+            )}
             <main className="page blog-post-page">
                 {/* Decorative elements */}
                 <div className="floating-orb floating-orb--1"></div>

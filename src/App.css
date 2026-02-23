@@ -4556,3 +4556,39 @@ img {
   background: rgba(255, 255, 255, 0.15);
   color: rgba(255, 255, 255, 0.85);
 }
+
+/* ============================================
+   PREVIEW MODE BANNER
+   ============================================ */
+
+.preview-banner {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1rem;
+  background: linear-gradient(90deg, #f59e0b 0%, #d97706 100%);
+  color: #1c1917;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.preview-banner__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #1c1917;
+  display: inline-block;
+  animation: pulse-dot 1.4s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.7); }
+}

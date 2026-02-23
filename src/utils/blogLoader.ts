@@ -2,10 +2,11 @@ import type { EntryFieldTypes, Asset } from 'contentful';
 import { BLOCKS } from '@contentful/rich-text-types';
 import type { Document } from '@contentful/rich-text-types';
 import type { BlogPost } from '../types';
-import client from './contentful';
+import client, { previewClient } from './contentful';
 
 // In-memory cache to avoid redundant API calls during a session
 let cachedPosts: BlogPost[] | null = null;
+let cachedPreviewPosts: BlogPost[] | null = null;
 
 // Contentful content type skeleton
 interface BlogPageEntrySkeleton {
@@ -102,20 +103,27 @@ function mapEntry(item: {
 }
 
 // Fetch all blog posts, sorted by date (newest first)
-export async function fetchAllPosts(): Promise<BlogPost[]> {
-  if (cachedPosts) return cachedPosts;
+export async function fetchAllPosts(preview = false): Promise<BlogPost[]> {
+  if (!preview && cachedPosts) return cachedPosts;
+  if (preview && cachedPreviewPosts) return cachedPreviewPosts;
+
+  const activeClient = preview && previewClient ? previewClient : client;
 
   try {
-    const res = await client.getEntries<BlogPageEntrySkeleton>({
+    const res = await activeClient.getEntries<BlogPageEntrySkeleton>({
       content_type: 'blogPage',
       order: ['-sys.createdAt'],
       limit: 100,
     });
 
-    cachedPosts = res.items.map(mapEntry);
+    const posts = res.items.map(mapEntry);
     // Sort by date field (newest first) since API ordering uses sys.createdAt
-    cachedPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-    return cachedPosts;
+    posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+    if (preview) cachedPreviewPosts = posts;
+    else cachedPosts = posts;
+
+    return posts;
   } catch (err) {
     console.error('Failed to fetch posts from Contentful:', err);
     return [];
@@ -123,30 +131,31 @@ export async function fetchAllPosts(): Promise<BlogPost[]> {
 }
 
 // Fetch a single post by slug
-export async function fetchPostBySlug(slug: string): Promise<BlogPost | undefined> {
-  const posts = await fetchAllPosts();
+export async function fetchPostBySlug(slug: string, preview = false): Promise<BlogPost | undefined> {
+  const posts = await fetchAllPosts(preview);
   return posts.find(p => p.slug === slug);
 }
 
 // Fetch featured posts
-export async function fetchFeaturedPosts(): Promise<BlogPost[]> {
-  const posts = await fetchAllPosts();
+export async function fetchFeaturedPosts(preview = false): Promise<BlogPost[]> {
+  const posts = await fetchAllPosts(preview);
   return posts.filter(p => p.featured);
 }
 
 // Fetch posts by category
-export async function fetchPostsByCategory(category: string): Promise<BlogPost[]> {
-  const posts = await fetchAllPosts();
+export async function fetchPostsByCategory(category: string, preview = false): Promise<BlogPost[]> {
+  const posts = await fetchAllPosts(preview);
   return posts.filter(p => p.category === category);
 }
 
 // Fetch all unique categories (from tags)
-export async function fetchCategories(): Promise<string[]> {
-  const posts = await fetchAllPosts();
+export async function fetchCategories(preview = false): Promise<string[]> {
+  const posts = await fetchAllPosts(preview);
   return [...new Set(posts.flatMap(p => p.tags))];
 }
 
 // Invalidate cache (useful for preview/refresh)
 export function invalidateCache(): void {
   cachedPosts = null;
+  cachedPreviewPosts = null;
 }

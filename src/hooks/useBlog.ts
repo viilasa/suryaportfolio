@@ -20,15 +20,16 @@ interface UseCategoriesResult {
   error: string | null;
 }
 
-export function useAllPosts(): UseAllPostsResult {
+export function useAllPosts(preview = false): UseAllPostsResult {
   const [posts, setPosts] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     let cancelled = false;
+    setLoading(true);
 
-    fetchAllPosts()
+    fetchAllPosts(preview)
       .then(data => {
         if (!cancelled) {
           setPosts(data);
@@ -43,12 +44,12 @@ export function useAllPosts(): UseAllPostsResult {
       });
 
     return () => { cancelled = true; };
-  }, []);
+  }, [preview]);
 
   return { posts, loading, error };
 }
 
-export function usePostBySlug(slug: string): UsePostResult {
+export function usePostBySlug(slug: string, preview = false): UsePostResult {
   const [post, setPost] = useState<BlogPost | undefined>(undefined);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -57,7 +58,7 @@ export function usePostBySlug(slug: string): UsePostResult {
     let cancelled = false;
     setLoading(true);
 
-    fetchPostBySlug(slug)
+    fetchPostBySlug(slug, preview)
       .then(data => {
         if (!cancelled) {
           setPost(data);
@@ -72,12 +73,12 @@ export function usePostBySlug(slug: string): UsePostResult {
       });
 
     return () => { cancelled = true; };
-  }, [slug]);
+  }, [slug, preview]);
 
   return { post, loading, error };
 }
 
-export function useCategories(): UseCategoriesResult {
+export function useCategories(preview = false): UseCategoriesResult {
   const [categories, setCategories] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -85,7 +86,7 @@ export function useCategories(): UseCategoriesResult {
   useEffect(() => {
     let cancelled = false;
 
-    fetchCategories()
+    fetchCategories(preview)
       .then(data => {
         if (!cancelled) {
           setCategories(data);
@@ -100,7 +101,7 @@ export function useCategories(): UseCategoriesResult {
       });
 
     return () => { cancelled = true; };
-  }, []);
+  }, [preview]);
 
   return { categories, loading, error };
 }

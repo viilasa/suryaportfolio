@@ -1,5 +1,5 @@
 import { Calendar, Clock, Sparkles, Tag } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import SectionHeading from '../components/SectionHeading';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -166,8 +166,11 @@ const BlogCard = ({ post, index }: BlogCardProps) => (
 );
 
 const BlogsPage = () => {
-    const { posts: allPosts, loading: postsLoading } = useAllPosts();
-    const { categories: dynamicCategories } = useCategories();
+    const [searchParams] = useSearchParams();
+    const isPreview = searchParams.get('preview') === 'true';
+
+    const { posts: allPosts, loading: postsLoading } = useAllPosts(isPreview);
+    const { categories: dynamicCategories } = useCategories(isPreview);
     const [activeCategory, setActiveCategory] = useState('All');
 
     // Predefined categories always show first; any extra from CMS appended after
@@ -206,6 +209,12 @@ const BlogsPage = () => {
                 ]}
             />
             <Navbar />
+            {isPreview && (
+                <div className="preview-banner">
+                    <span className="preview-banner__dot" />
+                    Preview Mode — showing drafts &amp; unpublished posts
+                </div>
+            )}
             <main className="page blogs-page">
                 {/* Decorative elements */}
                 <div className="floating-orb floating-orb--1"></div>
